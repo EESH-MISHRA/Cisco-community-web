@@ -193,10 +193,12 @@ h2 {
 /* about section starts here */
 .about-container{
     width: 100%;
-    height: 90vh;
+    height: 50vh;
     /* background-color: #ffffff; */
-    display: flex;
     /* flex-direction: row; */
+    display: flex;
+    /* background-color: aqua; */
+
 }
 
 .heading-short{
@@ -236,7 +238,7 @@ h2 {
 .ab-section-left{
     width: 60%;
     padding-top: 4%;
-    margin-right: 10%;
+    margin-right: 7%;
     /* background-color: #9569FC; */
     color: #ffffff;
 }
@@ -246,8 +248,49 @@ h2 {
 
 }
 
+.container-tabs{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    /* padding-left: 7%; */
+}
+.container-tabs .cont{
+    background-color: #ffffff;
+    padding: 10px;
+    height: 85%;
+    width: 23%;
+    margin: auto;
+    border-radius: 15px;
+    text-align: center;
+    border-bottom: 5px solid #9569FC;
+}
+.cont img{
+    width: 30%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+.cont h3{
+    font-family:'Koulen', display;
+    letter-spacing: 1px;
+    font-weight: 100;
+    color: #251a3e;
+    font-size: 25px;
+}
+.cont p{
+    font-family: "Jersey 10", serif;
+    font-size: 20px;
+    padding-bottom: 5px;
+
+}
 .headpara span{
     color: #9569FC;
+}
+
+.cont-child{
+    background-color: #9569FC !important;
+    color: #ffffff !important;
+    border-bottom: 5px solid white !important;
 }
 
 .navham{
