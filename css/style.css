@@ -92,7 +92,7 @@ body{
 }
 .heading-h1{
     width: 100%;
-    height: 30%;
+    height: auto;
     margin-top: 3vh;
 }
 .heading-h1 h1{
@@ -128,7 +128,7 @@ h2 {
     max-width: 38.5vw;
     position: relative;
     /* left: 150px; */
-    top: -20px;
+    /* top: -20px; */
     letter-spacing: 2px;
 
   }
@@ -348,7 +348,11 @@ h2 {
     display: none;
    }
    .home-container{
-    height: 160vh;
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
    }
    
     /* .navham{
@@ -359,13 +363,11 @@ h2 {
         width: 100%;
         height: 90%;
     }
-    .section-left img {
-        width: 100%;
-        height: auto;
-        position: absolute;
-        left:0;
-        z-index: 1;
-        top: 12%;
+    .section-left {
+        /* width: 100%; */
+        align-items: center;
+        display: flex;
+        text-align: center;
     }
     .content-pack {
         width: 100%;
@@ -376,7 +378,7 @@ h2 {
     
     
     .imag-container img {
-        width: 100%;
+        width: 450px;
         height: auto;
         position: absolute;
         right: 10%;
@@ -391,9 +393,13 @@ h2 {
         font-size: 13.7vw;
     }
     .heading-h1{
+        /* text: center; */
         width: 100%;
-        height: 12%;
+        height: 16%;
         margin-top: 3vh;
+    }
+    .headpara p {
+        padding-top: 30px;
     }
     
 h2 {

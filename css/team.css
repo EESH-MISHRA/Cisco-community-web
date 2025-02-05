@@ -20,3 +20,22 @@ body{
     font-weight: 100!important;
     font-size: 8vh!important;
 }
+.container-main{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.container-main a{
+    text-decoration: none;
+    color: #181120;
+    font-family: Koulen;
+}
+
+.container-event{
+    margin: auto;
+    padding: 50px 0 50px 0;
+    display: flex;
+    justify-content: center;
+
+}
