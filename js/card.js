@@ -41,3 +41,14 @@ var swiper = new Swiper(".swiper", {
         invert: false,
     }
 })
+
+function callFunction(){
+    console.log("Hello World")
+    // slides = document.getElementsByClassName("dislay-non")
+    const slides = document.getElementsByClassName("slides")
+    for (let i = 0; i < slides.length; i++) {
+        // Access each div element using divs[i]
+        slides[i].classList.toggle("opactive"); 
+      }
+
+}
