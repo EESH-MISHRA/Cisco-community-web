@@ -24,3 +24,4 @@ tl.to("img",{
   left:"50%",
   right:"10%"
 })
+

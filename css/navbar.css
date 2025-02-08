@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ background: linear-gradient(to right,#181120,#261534,#251a3e,#171634);
+ overflow-x: hidden;
+
+}
+.navbar-wrapperS{
+    justify-content: center;
+    display: flex;
+    /* position: fixed; */
+    top: 30px;
+    z-index: 1000;
+
+}
+.navbars{
+    position: relative;
+    top: 30px;
+    display: flex;
+    font-family: "Koulen", serif;
+    font-weight: 400;
+    font-style: normal;
+    background:rgba(233, 230, 230, 0.23);
+    backdrop-filter: blur(120px);
+    /* opacity: 86%; */
+    /* padding: 5px; */
+    padding: 5px 10px 5px 10px ;
+    width: 70%;
+    /* justify-content: space-around; */
+    border-radius: 17px;
+    z-index: 10000;
+}
+.nav-logo{
+/* background-color: #261534; */
+    height: 100%;
+    margin: 6px 0 0 20px;
+}
+.nav-logo img{
+    width: 75px;
+    height: 30px;
+}
+.nav-contents{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 5px;
+    margin: 0 12% 0 16%;
+}
+.nav-contents li{
+    padding: 5px 0 5px 25px;
+    padding-left: 25px;
+}
+.nav-contents li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.nav-button a{
+    color: white;
+    background-color: #171634;
+    opacity: 81%;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 2px 10px 2px 20px;
+    border-radius: 5px;
+}
+.nav-button{
+    margin: auto;
+    justify-content: center;
+}
+
+
+
+.sub-menu {
+    position: absolute;
+    top: 55px;
+    right: 10px;
+    width: 200px;
+    height: fit-content;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(3, 112, 244);
+    border-radius: 2mm;
+    padding: 10px 0;
+    box-shadow: rgba(0, 0, 0, 0.27) 0px 15px 38px,
+      rgba(0, 0, 0, 0.2) 0px 10px 12px;
+  }
+  .option,
+  .sub {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-family: poppins;
+    color: white;
+    font-weight: 500;
+    padding: 10px 0;
+  }
+  .option:hover,
+  .sub:hover {
+    background: white;
+    color: rgb(1, 42, 84);
+  }
+  .sub {
+    display: none;
+  }
