@@ -29,6 +29,7 @@
 //   });
 
 var swiper = new Swiper(".swiper", {
+    loop: true,
     effect: "cards",
     grabcursor: true,
     initialSlide: 4,
@@ -51,4 +52,63 @@ function callFunction(){
         slides[i].classList.toggle("opactive"); 
       }
 
+}
+function callCood(){
+    const slides_cood = document.getElementsByClassName("slides-cood")
+    for (let i = 0; i < slides_cood.length; i++) {
+        // Access each div element using divs[i]
+        slides_cood[i].classList.toggle("opactive"); 
+      }
+
+}
+function callEvent(){
+    const event = document.getElementsByClassName("slides-event")
+    for (let i = 0; i < event.length; i++) {
+        // Access each div element using divs[i]
+        event[i].classList.toggle("opactive"); 
+      }
+
+}
+function callPr(){
+    const slides_pr = document.getElementsByClassName("slides-pr")
+    for (let i = 0; i < slides_pr.length; i++) {
+        // Access each div element using divs[i]
+        slides_pr[i].classList.toggle("opactive"); 
+      }
+
+}
+function callTech(){
+    const slides_tech = document.getElementsByClassName("slides-tech")
+    for (let i = 0; i < slides_tech.length; i++) {
+        // Access each div element using divs[i]
+        slides_tech[i].classList.toggle("opactive"); 
+      }
+}
+function callDesign(){
+    const slides_design = document.getElementsByClassName("slides-design")
+    for (let i = 0; i < slides_design.length; i++) {
+        // Access each div element using divs[i]
+        slides_design[i].classList.toggle("opactive"); 
+      }
+}
+function callContent(){
+    const slides_content = document.getElementsByClassName("slides-content")
+    for (let i = 0; i < slides_content.length; i++) {
+        // Access each div element using divs[i]
+        slides_content[i].classList.toggle("opactive"); 
+      }
+}
+function callHr(){
+    const slides_hr = document.getElementsByClassName("slides-hr")
+    for (let i = 0; i < slides_hr.length; i++) {
+        // Access each div element using divs[i]
+        slides_hr[i].classList.toggle("opactive"); 
+      }
+}
+function callRese(){
+    const slides_res = document.getElementsByClassName("slides-res")
+    for (let i = 0; i < slides_res.length; i++) {
+        // Access each div element using divs[i]
+        slides_res[i].classList.toggle("opactive"); 
+      }
 }
