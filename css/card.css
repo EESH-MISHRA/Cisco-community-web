@@ -210,3 +210,9 @@ transition: 0.5 ease;
   background-position: center;
   background-repeat: no-repeat;
 }
+
+
+
+.opactive{
+   visibility: hidden;
+}

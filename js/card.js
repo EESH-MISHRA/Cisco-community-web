@@ -56,7 +56,6 @@ function callFunction(){
 function callCood(){
     const slides_cood = document.getElementsByClassName("slides-cood")
     for (let i = 0; i < slides_cood.length; i++) {
-        // Access each div element using divs[i]
         slides_cood[i].classList.toggle("opactive"); 
       }
 
