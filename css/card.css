@@ -121,7 +121,7 @@ section{
     bottom: 12%;
     text-align: left;
     left: 0;
-    color: #000 ;
+    color: #fff ;
     /* background-color: rgba(255, 255, 255, 0.2); */
     /* padding: 2px; */
     /* backdrop-filter: blur(20px); */
@@ -131,7 +131,7 @@ section{
 }
 
 .swiper-slide:nth-child(1) {
-    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("./images/p8.jpeg");
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -206,9 +206,10 @@ transition: 0.5 ease;
 }
 
 #faculCood{
-  background-image: url(/images/faccod.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
+ background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/faccod.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
