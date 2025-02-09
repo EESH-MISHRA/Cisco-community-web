@@ -15,12 +15,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow-x: auto;
+  /* overflow-x: auto; */
 
 }
 .timeline{
   position: absolute;
   height: .12rem;
+  width: 105vw;
   padding: 0 4rem;
   background-color: #fff;
   list-style-type: none;
@@ -131,6 +132,9 @@ background-color: var(--primary-color);
     padding: .5rem .8rem;
     border-radius: 2rem;
     background-color: #fff;
+    z-index: 10000;
+    /* position: absolute;
+    bottom: 0%; */
   }
   /* 14:51 */
   /* 14:51 */
