@@ -136,5 +136,9 @@ background-color: var(--primary-color);
     /* position: absolute;
     bottom: 0%; */
   }
+  .read-button{
+    position: absolute;
+    top: 5%;
+  }
   /* 14:51 */
   /* 14:51 */
