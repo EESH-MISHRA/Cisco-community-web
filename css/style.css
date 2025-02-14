@@ -452,7 +452,7 @@ h2 {
         display: none;
     }
     .home-container-mobile{
-        display: flex;
+        display: block;
     }
     
     .navham{
