@@ -543,3 +543,11 @@ footer{
         margin: 0 auto;
     }
 }
+@media screen and (max-width: 600px) {
+    .heading-h1-mobile h1{
+        font-size: 3rem;
+    }
+    .heading-h2-mobile{
+        padding-left: 33px;
+    }
+}
