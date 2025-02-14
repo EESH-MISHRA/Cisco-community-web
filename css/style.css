@@ -105,6 +105,19 @@ body{
     font-weight: 180;
     padding-left: 2%;
 }
+.heading-h1-mobile{
+    letter-spacing: 1px;
+    /* font-size: 40px; */
+    font-weight: 180;
+    padding-left: 2%;
+    color: #ffffff;
+    font-family: "Jersey 10";
+    max-width: 600px;
+}
+.heading-h1-mobile h1{
+    letter-spacing: 1px;
+font-size: 5rem;
+}
 .section-left{
     width: 40%;
     height: 90%;
@@ -117,6 +130,28 @@ body{
     position: relative;
     right: 32%;
     z-index: 1;
+}
+.imag-container-mobile img{
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+.content-pack-mobile{
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: "Jersey 10";
+
+}
+.heading-h1-mobile{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.content-pack-mobile .headpara p{
+    font-size: 2.2rem;
+    font-weight: 200;
+    padding: 0px 50px;
 }
 
 
@@ -398,16 +433,28 @@ h2 {
     padding-top: 0;
     margin-bottom: 15%;
 }
-
+.home-container-mobile{
+    display: none;
+}
 
 
 .navham{
     display: none;
 }
 @media only screen and (max-width: 1220px) {
+    .headpara p{
+        text-align: center!important;
+    }
+    .nav-button{
+        display: none;
+    }
     .nav-contents{
         display: none;
     }
+    .home-container-mobile{
+        display: flex;
+    }
+    
     .navham{
         display: block;
     }
