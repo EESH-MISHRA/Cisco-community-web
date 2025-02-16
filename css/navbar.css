@@ -140,3 +140,205 @@ a {
     
   }
 /* css to reset all the designs */
+
+
+
+
+
+.menu {
+    position: relative;
+    z-index: 9999;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    border-radius: 100%;
+  }
+  .menu.active .menu__list {
+    opacity: 1;
+    visibility: visible;
+    visibility: visible;
+    transform: scale(1);
+    transition: transform 0.3s, visibility 0s 0s;
+  }
+  .menu.active .menu__list li a {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    opacity: 1;
+  }
+  .menu.active .menu__list li:nth-child(1) a {
+    transition-delay: 0s;
+  }
+  .menu.active .menu__list li:nth-child(2) a {
+    transition-delay: 0.2s;
+  }
+  .menu.active .menu__list li:nth-child(3) a {
+    transition-delay: 0.4s;
+  }
+  .menu.active .menu__list li:nth-child(4) a {
+    transition-delay: 0.6s;
+  }
+  .menu.active .menu__list li:nth-child(5) a {
+    transition-delay: 0.8s;
+  }
+  .menu.active .menu__list li:nth-child(6) a {
+    transition-delay: 1s;
+  }
+  .menu.active .menu__list li:nth-child(7) a {
+    transition-delay: 1.2s;
+  }
+  .menu.active .menu__list li:nth-child(8) a {
+    transition-delay: 1.4s;
+  }
+  .menu.active .menu__list li:nth-child(9) a {
+    transition-delay: 1.6s;
+  }
+  .menu.active .menu__list li:nth-child(10) a {
+    transition-delay: 1.8s;
+  }
+  .menu .menu__btn {
+    cursor: pointer;
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    /* background: linear-gradient(0deg, rgb(22, 9, 240) 0%, rgb(49, 110, 244) 100%); */
+    /* box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15); */
+  }
+  .menu .menu__btn i {
+    color: #fff;
+  }
+  .menu .menu__list {
+    list-style: none;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column;
+    margin-top: 43px;
+    margin-bottom: 0;
+    padding: 5px 0;
+    border-radius: 4px;
+    transform: scale(0);
+    transform-origin: top left;
+    transition: transform 0.3s, visibility 0s 0s;
+    background: linear-gradient(0deg, #1609f0 0%, #316ef4 100%);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+  }
+  .menu .menu__list li {
+    display: flex;
+    align-items: center;
+  }
+  .menu .menu__list li a {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 15px 25px;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0;
+  }
+  .menu .menu__list li a:hover {
+    color: rgba(233, 233, 233, 0.75);
+    transition: 0.25s !important;
+    transition-delay: 0s;
+  }
+  
+  /*  */
+  
+  
+  
+  .menu.menu--top-right {
+    position: absolute;
+    right: 15px;
+    top: 2px;
+    text-align: left;
+  }
+  .menu.menu--top-right.active .menu__list {
+    transform: scale(1);
+  }
+  .menu.menu--top-right.active .menu__list li a {
+    transform: translateX(0);
+  }
+  .menu.menu--top-right .menu__btn {
+    /* background: rgb(255, 27, 0); */
+    background: transparent;
+    /* background: linear-gradient(0deg, rgb(255, 27, 0) 0%, rgb(251, 75, 2) 100%); */
+  }
+  .menu.menu--top-right .menu__list {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: scale(0);
+    transform-origin: top right;
+    background: rgb(140, 0, 255);
+    background: linear-gradient(0deg, rgb(140, 0, 255) 0%, rgb(140, 0, 255) 100%);
+    padding-left: 20px;
+    /* border-radius: 20px; */
+    padding-right: 20px;
+  }
+  .menu.menu--top-right .menu__list li a {
+    transform: translateX(10px);
+  }
+
+
+  
+  .wrapper__header {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    /* padding: 100px 15px; */
+    margin: 0 auto;
+    max-width: 70%;
+  }
+  @media (max-width: 768px) {
+    .wrapper__header {
+      max-width: 100%;
+    }
+  }
+  .wrapper__header h1 {
+    text-align: center;
+  }
+  .wrapper__header p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  .wrapper__header ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  .wrapper__header ul li {
+    margin: 15px 0;
+  }
+  
+  
+  /*# sourceMappingURL=style.css.map */
+  .navham{
+    display: none;
+  }
+  @media only screen and (max-width: 1220px) {
+    .navham {
+        display: block;
+    }
+    .nav-contents{
+        display: none;
+    }
+    .nav-button{
+        display: none;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .container-team h1{
+        font-size: 4rem;
+    }
+  }
