@@ -142,3 +142,52 @@ background-color: var(--primary-color);
   }
   /* 14:51 */
   /* 14:51 */
+
+  @media only screen and (max-width: 1220px) {
+    .timeline-wrapper{
+      overflow-x: visible;
+    }
+  }
+
+.button-div{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.read-more a{
+ text-decoration: none;
+ background-color: transparent!important;
+ color: #fff!important;
+ transition: 0.5s ease-in;
+
+
+    /* display: none; */
+}
+.read-more{
+  background-color: #171634!important;
+  transition: 0.2s ease-in;
+}
+.read-more:hover, .read-more a:hover{
+  color: #171634!important;
+}
+.read-more:hover{
+background-color: #fff!important;
+}
+
+
+
+.data-flex{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 0;
+}
+@media only screen and (max-width:600px) {
+  .read-more{
+    left: 11px;
+  }
+}
+.display-block{
+  display: block;
+}
