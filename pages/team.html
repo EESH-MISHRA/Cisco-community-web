@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="/css/team.css">
     <link rel="stylesheet" href="/css/card.css">
@@ -20,46 +18,32 @@
     <div class="navbars">
         <div class="nav-logo"><img src="/images/logo.png" alt="Logo"></div>
             <div class="nav-contents">
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/index.html#about-container">About</a></li>
-                <li><a href="/index.html#gallery-cont">Gallery</a></li>
-                <li><a href="/pages/team.html">Team</a></li>
-                <li><a href="/index.html#contact-form">Contact Us</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Team</a></li>
+                <li><a href="">Contact Us</a></li>
             </div>
-            <div class="navham wrapMenu">
-                <div class="menu menu--top-right" id="menu_top_right">
-                  <a class="menu__btn" dd-nav-expand="menu_top_right"><i class="fa fa-bars"></i></a>
-                  <ul class="menu__list">
-                    <li><a href="/index.html">Home</a></li>
-                <li><a href="/index.html#about-container">About</a></li>
-                <li><a href="/index.html#gallery-cont">Gallery</a></li>
-                <li><a href="/pages/team.html">Team</a></li>
-                <li><a href="/index.html#contact-form">Contact</a></li>
-                    <li><a href="#">Blog</a></li>
-                    
-                  </ul>
-                </div>
-              </div>
+            
             <!-- <button class="navham"><span class="sr-only text-white">Open main menu</span><svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg></button> -->
             <div class="nav-button">
                 <a href="" class="nav-button">Blogs <i class="bi bi-caret-right-fill"></i></a>
             </div>
-
             
         </div>    
     </div>
     <div class="container-fluid container-team">
-        <h1>MEET THE TEAM</h1>
+        <h1><span class="typewriter3"></span></h1>
     </div>
     <div class="card-container">
         <div class="card">
             <section>
-                <div  class="swiper">
+                <div  class="swiper4">
                   <div class="swiper-wrapper">
                    <div id="faculCood" class="swiper-slide  ">
                     <h2>Dr. Nancy Kumari</h2>
                     <p>Faculty Co-ordinator</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/dr-nancy-kumari/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span>
                 </div>
                    
                </div>
@@ -75,9 +59,10 @@
                 <div  class="swiper">
                   <div class="swiper-wrapper">
                    <div id="prez" class="swiper-slide  ">
+                    <div id="abhinav" class="swiper-slide"></div>
                     <h2>Abhinav Goel</h2>
                     <p>President</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                    
                </div>
@@ -87,21 +72,24 @@
             <section>
                 <div  class="swiper">
                   <div class="swiper-wrapper">
-                    <div id="cood"onclick="callCood()"  class="swiper-slide  ">
+                    <div id="cood" onclick="callCood()" class="swiper-slide  ">
+                        <div id="vinay" class="swiper-slide"></div>
                         <h2>Vinay Vyas</h2>
                         <p>Student Co-ordinator</p>
-                        <h3><span><a href="www.google.com" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                        <h3><span><a href="https://www.linkedin.com/in/vinay-vyas-338544251/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="https://www.instagram.com/vinayy.2507?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                     </div>
-                   <div id="slide-3" class="swiper-slide slides-cood opactive">
+                   <div id="slide-3" onclick="callCood()" class="swiper-slide slides-cood opactive">
+                    <div id="khyati" class="swiper-slide"></div>
                     <h2>Khayti Tiwari</h2>
                     <p>Student Co-ordinator</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/khyatitiwari/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="https://www.instagram.com/_.khyati_._/?utm_source=ig_web_button_share_sheet" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                    
-                   <div  id="slide-5" class="swiper-slide slides-cood opactive">
+                   <div  id="slide-5" onclick="callCood()" class="swiper-slide slides-cood opactive">
+                    <div id="sc1" class="swiper-slide"></div>
                     <h2>Ritik Mishra</h2>
                     <p>Student Co-ordinator</p>
-                    <h3><span><a href="www.google.com"><i class="bi bi-linkedin"></i></a></span><span> | <i class="bi bi-instagram"><a href="www.google.com"></a></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/iamtheorm/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="https://www.instagram.com/iamthe_orm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                   
                </div>
@@ -112,109 +100,130 @@
                 <div  class="swiper">
                   <div class="swiper-wrapper">
                     <div id="slide-3"  class="swiper-slide slides-event opactive">
+                        <div id="ritin" class="swiper-slide"></div>
                         <h2>Ratindranath Tagore</h2>
                         <p>Event Team | Member</p>
-                        <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                        <h3><span><a href="https://www.linkedin.com/in/rnt04/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                     </div>
                     <div id="slide-3"  class="swiper-slide slides-event opactive">
-                        <h2>Sambhav Srivastava</h2>
+                        <div id="sambhav" class="swiper-slide"></div>
+                        <h2>Sambhav Shrivastava</h2>
                         <p>Event Team | Member</p>
-                        <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                        <h3><span><a href="https://www.linkedin.com/in/sambhav-shrivastava-079a17289/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                     </div>
                     <div id="slide-3"  class="swiper-slide slides-event opactive">
+                        <div id="vidhu" class="swiper-slide"></div>
                         <h2>Vidhu Vinod</h2>
                         <p>Event Team | Member</p>
-                        <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                        <h3><span><a href="https://www.linkedin.com/in/vidhu-vinod/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                     </div>
                    <div id="slide-3"  class="swiper-slide slides-event opactive">
+                    <div id="pakhi" class="swiper-slide"></div>
                     <h2>Pakhi Shukla</h2>
                     <p>Event Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/pakhi-shukla-6773a428b/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                    <div id="cood" onclick="callEvent()" class="swiper-slide  ">
-                        <h2>Niti</h2>
+                    <div id="niti" class="swiper-slide"></div>
+                        <h2>Niti Kanoongo</h2>
                         <p>Event Team | Lead</p>
-                        <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                        <h3><span><a href="https://www.linkedin.com/in/niti-kanoongo/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                     </div>
                    <div  id="slide-5"  class="swiper-slide slides-event opactive">
+                    <div id="gauri" class="swiper-slide"></div>
                     <h2>Gauri Krishna</h2>
                     <p>Event Team | Co-Lead</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/gauri-krishna-r-b325b0327/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                 <div id="slide-3"  class="swiper-slide slides-event opactive">
+                    <div id="ujjwal" class="swiper-slide"></div>
                     <h2>Ujjwal Singh</h2>
                     <p>Event Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                 <div id="slide-3"  class="swiper-slide slides-event opactive">
+                    <div id="trisha" class="swiper-slide"></div>
                     <h2>Trisha Kapoor</h2>
                     <p>Event Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/trisha-kapoor2412/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                 <div id="slide-3"  class="swiper-slide slides-event opactive">
                     <h2>Tanisha Likhitkar</h2>
                     <p>Event Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/tanisha-likhitkar-6b97162ba/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                 <div id="slide-3"  class="swiper-slide slides-event opactive">
-                    <h2>Prakash Somani</h2>
+                    <div id="pratyksh" class="swiper-slide"></div>
+                    <h2>Pratyaksh Somani</h2>
                     <p>Event Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                 <div id="slide-3"  class="swiper-slide slides-event opactive">
+                    <div id="soorya" class="swiper-slide"></div>
                     <h2>Soorya Dayal Sajeev</h2>
                     <p>Event Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/soorya-dayal-sajeev-991958317/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                 <div id="slide-3"  class="swiper-slide slides-event opactive">
+                    <div id="kalyani" class="swiper-slide"></div>
                     <h2>Kalyani Agrawal</h2>
                     <p>Event Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/kalyani-agrawal16021419/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div><div id="slide-3"  class="swiper-slide slides-event opactive">
+                    <div id="janmejai" class="swiper-slide"></div>
                     <h2>Janmejai Gehlot</h2>
                     <p>Event Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/janmejai-gehlot-7a695a274/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                 <div id="slide-3"  class="swiper-slide slides-event opactive">
-                    <h2>Insaraj Ranawat</h2>
+                    <div id="insharaj" class="swiper-slide"></div>
+                    <h2>Insharaj Ranawat</h2>
                     <p>Event Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href=https://www.linkedin.com/in/insharaj-ranawat/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div><div id="slide-3"  class="swiper-slide slides-event opactive">
+                    <div id="devadath" class="swiper-slide"></div>
                     <h2>Devadath Mahesh</h2>
                     <p>Event Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/devadath-mahesh-8a918253/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                 <div id="slide-3"  class="swiper-slide slides-event opactive">
                     <h2>Dev Upadhyay</h2>
+                    <div id="devu" class="swiper-slide"></div>
                     <p>Event Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/dev-upadhyay-vit7/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div><div id="slide-3"  class="swiper-slide slides-event opactive">
+                    <div id="derin" class="swiper-slide"></div>
                     <h2>Derin Denny Mathew</h2>
                     <p>Event Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/derin-denny-mathew-2a83972a5/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                 <div id="slide-3"  class="swiper-slide slides-event opactive">
+                    <div id="aswin" class="swiper-slide"></div>
                     <h2>Aswin Pillai</h2>
                     <p>Event Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/aswin-pillai-ap290305/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div><div id="slide-3"  class="swiper-slide slides-event opactive">
+                    <div id="akansha" class="swiper-slide"></div>
                     <h2>Akansha Gupta</h2>
                     <p>Event Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                 <div id="slide-3"  class="swiper-slide slides-event opactive">
+                    <div id="aarushis" class="swiper-slide"></div>
                     <h2>Aarushi Saki</h2>
                     <p>Event Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/aarushisaki1309/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div><div id="slide-3"  class="swiper-slide slides-event opactive">
+                    <div id="aarushig" class="swiper-slide"></div>
                     <h2>Aarushi Garg</h2>
                     <p>Event Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/aarushi-garg-g2205/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                 <div id="slide-3"  class="swiper-slide slides-event opactive">
-                    <h2>Shubham Chemate/h2>
+                    <div id="shubhamc" class="swiper-slide"></div>
+                    <h2>Shubham Chemate</h2>
                     <p>Event Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/shubham-chemate-019424238/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                   
                </div>
@@ -225,36 +234,42 @@
                 <div  class="swiper">
                   <div class="swiper-wrapper">
                     <div id="cood" onclick="callPr()" class="swiper-slide  ">
+                        <div id="manasvi" class="swiper-slide"></div>
                         <h2>Manasvi Joshi</h2>
                         <p>PR Team | Lead</p>
-                        <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                        <h3><span><a href="https://www.linkedin.com/in/manasvi-joshi-980696305/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                     </div>
                     
                    <div  id="slide-5"  class="swiper-slide slides-pr opactive">
-                    <h2>Akshit Agrawal</h2>
+                    <div id="akshit" class="swiper-slide"></div>
+                    <h2>Rai Simran Gibachh</h2>
                     <p>PR Team | Co-Lead</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                     <div id="slide-3"  class="swiper-slide slides-pr opactive">
+                        <div id="devs" class="swiper-slide"></div>
                         <h2>Dev Soni</h2>
                         <p>PR Team | Member</p>
-                        <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                        <h3><span><a href="https://www.linkedin.com/in/dev-soni-dv/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                     </div>
                    <div id="slide-3"  class="swiper-slide slides-pr opactive">
+                    <div id="rudrika" class="swiper-slide"></div>
                     <h2>Rudrika Trivedi</h2>
                     <p>PR Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/rudrika-trivedi-965632313/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                    
                 <div id="slide-3"  class="swiper-slide slides-pr opactive">
+                    <div id="aditis" class="swiper-slide"></div>
                     <h2>Aditi Shukla</h2>
                     <p>PR Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/aditi-shukla-2a0a98320/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                 <div id="slide-3"  class="swiper-slide slides-pr opactive">
+                    <div id="prince" class="swiper-slide"></div>
                     <h2>Prince Negi</h2>
                     <p>PR Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                 
                </div>
@@ -262,63 +277,73 @@
         </div>
         <div class="card">
             <section>
-                <div  class="swiper">
+                <div class="swiper">
                     <div class="swiper-wrapper">
                     <div id="slide-3"  class="swiper-slide slides-tech opactive">
+                        <div id="arush" class="swiper-slide"></div>
                         <h2>Arush Bhatnagar</h2>
                         <p>Tech Team | Member</p>
-                        <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
-                    </div>
-                   <div id="slide-3"  class="swiper-slide slides-tech opactive">
+                        <h3><span><a href="https://www.linkedin.com/in/arush-bhatnagar-797448289/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="https://www.instagram.com/arushtheavgeek?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="bi bi-instagram"></i></a></span></h3></div>
+                   
+                    <div id="slide-3"  class="swiper-slide slides-tech opactive">
+                    <div id="deepti" class="swiper-slide"></div>
                     <h2>Deepti Gupta</h2>
                     <p>Tech Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
-                </div>
+                    <h3><span><a href="https://www.linkedin.com/in/-deepti-gupta/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="https://www.instagram.com/deeptig9138?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="bi bi-instagram"></i></a></span></h3></div>
                 
                    
                 <div id="slide-3"  class="swiper-slide slides-tech opactive">
+                    <div id="eesh" class="swiper-slide"></div>
                     <h2>Eesh Mishra</h2>
                     <p>Tech Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/eesh-mishra-200a06328/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="https://www.instagram.com/the_eesh_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                 
                 <div id="slide-3"  class="swiper-slide slides-tech opactive">
+                    <div id="aditya" class="swiper-slide"></div>
                     <h2>Aditya Anil Tiwari</h2>
                     <p>Tech Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/aditya-tiwari-85b258216/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="https://www.instagram.com/aad.1.tyaa/?utm_source=ig_web_button_share_sheet" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                 <div id="cood" onclick="callTech()" class="swiper-slide ">
+                    <div id="marut" class="swiper-slide"></div>
                     <h2>Marut Prishat</h2>
                     <p>Tech Team | Lead</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/marutprishat" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="https://www.instagram.com/_marutprishat_?igsh=Y3pwaXVtbHE1cXln&utm_source=qr" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
+
                 </div>
                 
                <div  id="slide-5"  class="swiper-slide slides-tech opactive">
+                <div id="techcolead" class="swiper-slide"></div>
                 <h2>Srinjayi Sarkar</h2>
                 <p>Tech Team | Co-Lead</p>
-                <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                <h3><span><a href="https://www.linkedin.com/in/srinjayi-sarkar-264550251/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="https://www.instagram.com/_srinjayi.sarkar_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
             </div>
                 <div id="slide-3"  class="swiper-slide slides-tech opactive">
+                    <div id="hrishikesh" class="swiper-slide"></div>
                     <h2>Hrishikesh Kothe</h2>
                     <p>Tech Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/vaibhav-kumar-87557528a/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                
                       
                 <div id="slide-3"  class="swiper-slide slides-tech opactive">
-                    <h2>Vaibahv Kumar</h2>
+                    <div id="vaibhav" class="swiper-slide"></div>
+                    <h2>Vaibhav Kumar</h2>
                     <p>Tech Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/vaibhav-kumar-87557528a/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                 <div id="slide-3"  class="swiper-slide slides-tech opactive">
+                    <div id="himalaya" class="swiper-slide"></div>
                     <h2>Himalaya Yadav</h2>
                     <p>Tech Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/himalayaydv/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                 <div id="slide-3"  class="swiper-slide slides-tech opactive">
+                    <div id="harshvardhan" class="swiper-slide"></div>
                     <h2>Harshvardhan Jajoo</h2>
                     <p>Tech Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/hgjajoo/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                 
                </div>
@@ -333,30 +358,34 @@
             
                 
             <div id="slide-3"  class="swiper-slide slides-design opactive">
-                <h2>Pardhi Tiwari</h2>
+                <div id="paridhi" class="swiper-slide"></div>
+                <h2>Paridhi Tiwari</h2>
                 <p>Design Team | Member</p>
-                <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                <h3><span><a href="https://www.linkedin.com/in/paridhi-tiwari-0701/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
             </div>
             
             
            <div  id="slide-5"  class="swiper-slide slides-design opactive">
+            <div id="omkar" class="swiper-slide"></div>
             <h2>Omkar Kottawar</h2>
             <p>Design Team | Co-Lead</p>
-            <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+            <h3><span><a href="https://www.linkedin.com/in/omkar-kottawar/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
         </div>
         <div id="cood" onclick="callDesign()" class="swiper-slide ">
+            <div id="khushi" class="swiper-slide"></div>
             <h2>Khushi Tripathi</h2>
             <p>Design Team | Lead</p>
-            <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+            <h3><span><a href="https://www.linkedin.com/in/khushi-tripathi-ba174b250/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
         </div>
-            <div id="slide-3"  class="swiper-slide slides-design opactive">
+            <div id="slide-3" class="swiper-slide slides-design opactive">
+                <div id="aditi" class="swiper-slide"></div>
                 <h2>Aditi Pathasarathi</h2>
                 <p>Design Team | Member</p>
-                <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                <h3><span><a href="https://www.linkedin.com/in/aditi-parthasarathi-19a6a72a2/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
             </div>
                       
-               
-                </div>
+            
+            </div>
             </section>
         </div>
         <div class="card">
@@ -364,37 +393,43 @@
                 <div  class="swiper">
                     <div class="swiper-wrapper">
                         <div id="cood" onclick="callContent()" class="swiper-slide ">
+                            <div id="sarthaktiwari" class="swiper-slide"></div>
                             <h2>Sarthak Tiwari</h2>
                             <p>Content Team | Lead</p>
-                            <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                            <h3><span><a href="https://www.linkedin.com/in/sarthak-manoj-tiwari-567909250/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                         </div>
                         
                        <div  id="slide-5"  class="swiper-slide slides-content opactive">
+                        <div id="ishika" class="swiper-slide"></div>
                         <h2>Ishika Wadagbalkar</h2>
                         <p>Content Team | Co-Lead</p>
-                        <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                        <h3><span><a href="https://www.linkedin.com/in/ishika-wadagbalkar/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                     </div>
                 
                 <div id="slide-3"  class="swiper-slide slides-content opactive">
+                    <div id="khushal" class="swiper-slide"></div>
                     <h2>Khushal Hingwe</h2>
                     <p>Content Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/khushal-hingwe-55774a34b/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                 <div id="slide-3"  class="swiper-slide slides-content opactive">
+                    <div id="harsimar" class="swiper-slide"></div>
                     <h2>Harsimar Preet Kaur</h2>
                     <p>Content Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/harsimar-preet-kaur/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                 
             <div id="slide-3"  class="swiper-slide slides-content opactive">
+                <div id="jerin" class="swiper-slide"></div>
                 <h2>Jerin Jiss</h2>
                 <p>Content Team | Member</p>
-                <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                <h3><span><a href="https://www.linkedin.com/in/jerin-jiss/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
             </div>
             <div id="slide-3"  class="swiper-slide slides-content opactive">
+                <div id="rajveer" class="swiper-slide"></div>
                 <h2>Rajveer Baweja</h2>
                 <p>Content Team | Member</p>
-                <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                <h3><span><a href="https://www.linkedin.com/in/rajveer-baweja-4685a528b/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
             </div>
                       
                
@@ -408,30 +443,35 @@
                     
                 
                 <div id="slide-3"  class="swiper-slide slides-hr opactive">
+                    <div id="ishan" class="swiper-slide"></div>
                     <h2>Ishan Saxena</h2>
                     <p>HR Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/ishan-saxena-62781428b/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                 <div id="slide-3"  class="swiper-slide slides-hr opactive">
+                    <div id="siya" class="swiper-slide"></div>
                     <h2>Siya Desai</h2>
                     <p>HR Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/siya-dessai-89b616325/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                     <div id="cood" onclick="callHr()" class="swiper-slide ">
+                        <div id="ashi" class="swiper-slide"></div>
                         <h2>Ashi</h2>
                         <p>HR Team | Lead</p>
-                        <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                        <h3><span><a href="https://www.linkedin.com/in/ashi-chauda-527b67251/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                     </div>
                     
                    <div  id="slide-5"  class="swiper-slide slides-hr opactive">
+                    <div id="kittu" class="swiper-slide"></div>
                     <h2>Kittu Priya</h2>
                     <p>HR Team | Co-Lead</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/kittu-priya-35340328b/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
             <div id="slide-3"  class="swiper-slide slides-hr opactive">
+                <div id="shubham" class="swiper-slide"></div>
                 <h2>Subham Kumar</h2>
                 <p>HR Team | Member</p>
-                <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                <h3><span><a href="" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
             </div>
                       
                
@@ -442,56 +482,68 @@
             <section>
                 <div  class="swiper">
                 <div class="swiper-wrapper">
-                    
+                
+                    <div id="slide-3"  class="swiper-slide slides-res opactive">
+                        <div id="nandini" class="swiper-slide"></div>
+                        <h2>Nandini Lodha</h2>
+                        <p>Research Team | Member</p>
+                        <h3><span><a href="https://www.linkedin.com/in/nandini-lodha-505185249/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
+                    </div>
                 
                 <div id="slide-3"  class="swiper-slide slides-res opactive">
-                    <h2>Achintya Rathore</h2>
+                    <div id="achinty" class="swiper-slide"></div>
+                    <h2>Achinty Rathore</h2>
                     <p>Research Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/achintya-pratap-singh-rathore-247689265/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                  
                 <div id="slide-3"  class="swiper-slide slides-res opactive">
+                    <div id="kshitij" class="swiper-slide"></div>
                     <h2>Kshitij</h2>
                     <p>Research Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/kshitij-tripathi-163415275/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
                 <div id="slide-3"  class="swiper-slide slides-res opactive">
+                    <div id="adityaroy" class="swiper-slide"></div>
                     <h2>Aditya Roy</h2>
                     <p>Research Team | Member</p>
-                    <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                    <h3><span><a href="https://www.linkedin.com/in/aditya-roy-0492ab26b/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
                 </div>
 
             <div id="slide-3"  class="swiper-slide slides-res opactive">
+                <div id="hiya" class="swiper-slide"></div>
                 <h2>Hiya Porwal</h2>
                 <p>Research Team | Member</p>
-                <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                <h3><span><a href="https://www.linkedin.com/in/hiya-porwal-64b997293/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
             </div>
             <div id="cood" onclick="callRese()" class="swiper-slide ">
+                <div id="eklavya" class="swiper-slide"></div>
                 <h2>Eklayva Mathur</h2>
                 <p>Research Team | Lead</p>
-                <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                <h3><span><a href="https://www.linkedin.com/in/eklavya-mathur/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
             </div>
             
            <div  id="slide-5"  class="swiper-slide slides-res opactive">
+            <div id="arjun" class="swiper-slide"></div>
             <h2>Arjun Choudhary</h2>
             <p>Research Team | Co-Lead</p>
-            <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+            <h3><span><a href="https://www.linkedin.com/in/arjunchoudhary69/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
         </div>
              
             <div id="slide-3"  class="swiper-slide slides-res opactive">
+                <div id="mansi" class="swiper-slide"></div>
                 <h2>Mansi Kapse</h2>
                 <p>Research Team | Member</p>
-                <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                <h3><span><a href="https://www.linkedin.com/in/mansi-kapse-34a374322/" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
             </div>
              
             <div id="slide-3"  class="swiper-slide slides-res opactive">
+                <div id="priyam" class="swiper-slide"></div>
                 <h2>Priyam Prakash</h2>
                 <p>Research Team | Member</p>
-                <h3><span><i class="bi bi-linkedin"></i></span><span> | <i class="bi bi-instagram"></i></span></h3>
+                <h3><span><a href="" target="_blank"><i class="bi bi-linkedin"></i></a></span><span> | <a href="" target="_blank"><i class="bi bi-instagram"></i></a></span></h3>
             </div>
-                      
-               
-                </div>
+            </div>
             </section>
         </div>
         <!-- Repeat the card structure for more items -->
@@ -545,9 +597,23 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
 <script src="/js/card.js"></script>
-<script src="/js/navbar.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
 
 
+<script>
+    ScrollReveal({
+        reset:true,
+        distance:'100px',
+        duration: 2000,
+        delay: 0
+    });
+
+    ScrollReveal().reveal('.nav-contents',{delay: 0 , origin: 'left'});
+    ScrollReveal().reveal('.nav-logo',{delay: 0 , origin: 'bottom'});
+    ScrollReveal().reveal('.navbars',{delay: 0 , origin: 'left'});
+    ScrollReveal().reveal('.swiper',{delay: 0 , origin: 'top'});
+</script>    
 </body>
 </html>
