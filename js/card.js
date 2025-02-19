@@ -111,3 +111,9 @@ function callRese(){
         slides_res[i].classList.toggle("opactive"); 
       }
 }
+
+var typed3 = new Typed('.typewriter3', {
+    strings: ['MEET THE TEAM'],
+    typeSpeed: 80,
+    loop: false
+  });
