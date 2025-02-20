@@ -75,7 +75,60 @@ section{
     padding: 50px 0;
     /* background: #dbe344; */
 }
-
+.swiper2{
+    width: 280px;
+    height: 430px;
+    padding: 50px 0;
+    /* background: #dbe344; */
+}
+.swiper3{
+    width: 280px;
+    height: 430px;
+    padding: 50px 0;
+    /* background: #dbe344; */
+}
+.swiper4{
+    width: 280px;
+    height: 430px;
+    padding: 50px 0;
+    /* background: #dbe344; */
+}
+.swiper5{
+    width: 280px;
+    height: 430px;
+    padding: 50px 0;
+    /* background: #dbe344; */
+}
+.swiper6{
+    width: 280px;
+    height: 430px;
+    padding: 50px 0;
+    /* background: #dbe344; */
+}
+.swiper7{
+    width: 280px;
+    height: 430px;
+    padding: 50px 0;
+    /* background: #dbe344; */
+}
+.swiper8{
+    width: 280px;
+    height: 430px;
+    padding: 50px 0;
+    /* background: #dbe344; */
+}
+.swiper9{
+    width: 280px;
+    height: 430px;
+    padding: 50px 0;
+    /* background: #dbe344; */
+}
+.swiper10{
+    width: 280px;
+    height: 430px;
+    padding: 50px 0;
+    /* background: #dbe344; */
+}
 .swiper-slide{
     position: relative;
     box-shadow: 0 15px 30px rgb(0, 0, 0, 0.5);
@@ -111,7 +164,7 @@ section{
 
 .swiper-slide h3 span{
     font-size: 1.1rem;
-    color: #1a24b9;
+    color: #251ab9;
     font-weight: 900;
 }
 
@@ -143,7 +196,7 @@ section{
 }
 
 .swiper-slide:nth-child(3) {
-    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("./images/p3.jpeg");
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("./images/p2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -206,14 +259,426 @@ transition: 0.5 ease;
 }
 
 #faculCood{
- background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/faccod.jpg");
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/faccod.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
+#sc1{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/ritikmishra.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
 
+#techcolead{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/SrinjayiSarkar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}   
 
+#arush{
+    background-image: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/ArushBhatnagar.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+#deepti{
+    background-image: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/DeeptiGupta.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#khushi{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Khushi Triapthi.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #aditi{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Aditi Parthasarathi.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       height: 370px ;
+   }
+   #paridhi{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/paridhi.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #hrishikesh{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/HrishikeshKothe.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #priyam{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/priyamprakash.png");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #insharaj{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Insharaj_Ranawat_24BCE10963.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #gauri{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Gauri_Krishna_R _23BOE10098.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #aarushig{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Aarushi_Garg_24BCE10047.jpg");
+       background-repeat: no-repeat;
+       background-size: 500px;
+       background-position: center;
+   }
+   #aarushis{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Aarushi_Saki_24BCE10352.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #eklavya{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Eklavya_Mathur_23MEI10070.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #pakhi{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Pakhi_Shukla_23BCE10847_Event Management_.png");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #nandini{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Nandini_Lodha_24BCE11092.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #ishan{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/ISHAN_SAXENA_23BCE10303.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #siya{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Siya_Sanjit_Dessai_24BHI10083.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       height: 420px;
+   }
+   #marut{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/marut.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       width:400px;
+       right:50px ;
+   }
+   #aayush{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Aayush Emmanuel.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #aditya{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Aditya_Anil_Tiwari_24BSA10166.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #eesh{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/EESH-MISHRA.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #himalaya{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Himalaya_23MEI10069.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #khushal{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Khushal_Hingwe_24BAI10007.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #kush{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Kush.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #prince{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/prince_negi_23BCE10687.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #vaibhav{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/VaibhavKumar_23BCE10972.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       height:400px;
+   }
+   #shubham{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Shubham kumar 24bcg10078.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #omkar{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/IMG-20240814-WA0007.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #aditis{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Aditi Shukla .jpg");
+       background-repeat: no-repeat;
+       background-size: 300px;
+       background-position: center;
+   }
+   #hiya{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Hiya_porwal_23mip10093.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #derin{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Derin_23MIM10065.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #kshitij{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Kshitij Tripathi_23BCE11736.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #ritin{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Ritin_22BCG10049_Event.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #trisha{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/TrishaKapoor_24BAI10659.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #sambhav{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Sambhav_Shrivastava_23BCE10229.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #abhinav{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/abhinav_goel_23bce10673.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #achinty{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Achinty_Rathore_24BCY10300.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #adityaroy{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/aditya_roy 23bcy10034.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #akansha{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Akanksha_Gupta_23BEY10063.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #raisimran{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #arjun{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/arjun_choudhary_23BCY10160.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #ashi{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/ASHI HR Lead.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #aswin{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/aswin_pillai_23MEI10003.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #devs{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Dev_Soni_23MEI10066.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       height:700px;
+   }
+   #devu{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Dev_Upadhyay_23BCE11272.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #devadath{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Devadath_Mahesh_23MIP10065.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #harsimar{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/harsimar_preet_kaur_22BCE10821.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #harshvardhan{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/harshvardhan_jajoo_23bai10330.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #ishika{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/ISHIKA_Wadagbalkar_22BCE11268.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #janmejai{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Janmejai_Gehlot_23BAI10247.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #jerin{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Jerin_Jiss_22BAI10036.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       height:400px;
+   }
+   #kalyani{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Kalyani Agrawal 24BCE10283 .jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #manasvi{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Manasvi_joshi_23BHI10193.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #mansi{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/mansi_kapse_23bce10627.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #niti{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/niti_23BAI10955.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #pratyksh{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Pratyksh_Somani_23BCE10482.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       height:400px;
+   }
+   #rajveer{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Rajveer_Baweja_23mip10110.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #rudrika{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/rudrika_trivedi_24BSA10317.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #sarthaktiwari{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Sarthak_Tiwari_22BHI10105.jpeg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #shubhamc{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Shubham_Chemate_23BAI10542.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #soorya{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/soorya_dayal sajeev_23MEI10049.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       height:370px;
+   }
+   #ujjwal{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Ujjwal_singh_23bce10578.jpeg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #vidhu{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/vidhu_vinod_23BHI10040.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #kittu{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Kittu_Priya_23MEI10034.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #vinay{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/Vinay Vyas.jpeg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
+   #khyati{
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/khyati.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+   }
 .opactive{
    visibility: hidden;
 }
