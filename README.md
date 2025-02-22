@@ -37,7 +37,7 @@ To contribute or make updates to the website, follow these steps:
    
 
 ## Tech Stack
-- **Frontend:** HTML, CSS, JavaScript, React (if applicable)
+- **Frontend:** HTML, CSS, JavaScript
 - **Hosting:** Netlify
 
 ## Contribution
