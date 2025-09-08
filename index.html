@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="overflow-x: hidden;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +15,9 @@
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </head>
 <body>
+    <div id="preloader">
+        <img src="preloader/robot3.gif" alt="Loading...">
+    </div>
     <!-- Navbar Starts Her -->
     <div class="navbar-wrapperS">
         <div class="navbars">
@@ -24,7 +27,6 @@
                     <li><a href="/index.html#about-container">About</a></li>
                     <li><a href="/index.html#gallery-cont">Gallery</a></li>
                     <li><a href="/pages/team.html">Team</a></li>
-                    <li><a href="/pages/challenges.html" style="color: #9569FC; font-weight: 600;">New Event!</a></li>
                     <li><a href="/index.html#contact-form">Contact Us</a></li>
                 </div>
                 <div class="navham wrapMenu">
@@ -35,7 +37,6 @@
                 <li><a href="/index.html#about-container">About</a></li>
                 <li><a href="/index.html#gallery-cont">Gallery</a></li>
                 <li><a href="/pages/team.html">Team</a></li>
-                <li><a href="/pages/challenges.html" style="color: #9569FC; font-weight: 600;">New Event!</a></li>
                 <li><a href="/index.html#contact-form">Contact</a></li>
                         <li><a href="#">Blog</a></li>
                     
@@ -148,7 +149,7 @@
     <div id="contact-form" class="contact-form">
    <section  class="max-width-cont uf-contact-form-01 mx-auto">
     <div class="container">
-        <div class="row justify-content-center bg-white rounded-4 shadow py-5 gx-5 px-lg-5">
+        <div class="row justify-content-center bg-white rounded-4 shadow py-5 gx-5 px-lg-5 w-80 mx-auto">
             <div class="col-md-6 text-center">
                 <h3 class="uf-ct-01-text-primary text-uppercase fw-bold">Contact Us</h3>
                 <p>Or reach out manually to <a href="mailto:cisco@vitbhopal.ac.in" class="text-decoration-none">cisco@vitbhopal.ac.in</a></p>
@@ -234,28 +235,24 @@
 
 <script>
     ScrollReveal({
-        reset: false,
-        distance: '40px',
-        duration: 800,
-        delay: 0,
-        easing: 'cubic-bezier(0.25, 0.46, 0.45, 0.94)',
-        mobile: true,
-        useDelay: 'onload',
-        viewFactor: 0.2
+        reset:true,
+        distance:'100px',
+        duration: 2000,
+        delay: 0
     });
 
-    ScrollReveal().reveal('.nav-contents', {delay: 0, origin: 'left', duration: 600});
-    ScrollReveal().reveal('.nav-logo', {delay: 0, origin: 'bottom', duration: 600});
-    ScrollReveal().reveal('.navbars', {delay: 0, origin: 'left', duration: 600});
-    ScrollReveal().reveal('.heading-short', {delay: 0, origin: 'left', duration: 700});
-    ScrollReveal().reveal('.section-left', {delay: 50, origin: 'right', duration: 700});
-    ScrollReveal().reveal('.nav-button', {delay: 0, origin: 'bottom', duration: 600});
-    ScrollReveal().reveal('.ab-section-left', {delay: 50, origin: 'right', duration: 700});
-    ScrollReveal().reveal('.cont', {delay: 0, origin: 'left', duration: 600});
-    ScrollReveal().reveal('.cont1', {delay: 50, origin: 'top', duration: 600});
-    ScrollReveal().reveal('.cont2', {delay: 100, origin: 'right', duration: 600});
-    ScrollReveal().reveal('.contact-form', {delay: 0, origin: 'left', duration: 700});
-    ScrollReveal().reveal('.heading-h2', {delay: 0, origin: 'bottom', duration: 600});
+    ScrollReveal().reveal('.nav-contents',{delay: 0 , origin: 'left'});
+    ScrollReveal().reveal('.nav-logo',{delay: 0 , origin: 'bottom'});
+    ScrollReveal().reveal('.navbars',{delay: 0 , origin: 'left'});
+    ScrollReveal().reveal('.heading-short',{delay: 0 , origin: 'left'});
+    ScrollReveal().reveal('.section-left',{delay: 0 , origin: 'right'});
+    ScrollReveal().reveal('.nav-button',{delay: 0 , origin: 'bottom'});
+    ScrollReveal().reveal('.ab-section-left',{delay: 0 , origin: 'right'});
+    ScrollReveal().reveal('.cont',{delay: 0 , origin: 'left'});
+    ScrollReveal().reveal('.cont1',{delay: 200 , origin: 'top'});
+    ScrollReveal().reveal('.cont2',{delay: 400 , origin: 'right'});
+    ScrollReveal().reveal('.contact-form',{delay: 0 , origin: 'left'});
+    ScrollReveal().reveal('.heading-h2',{delay: 0 , origin: 'bottom'});
     
 </script>
 <script src="js/navbar.js"></script>

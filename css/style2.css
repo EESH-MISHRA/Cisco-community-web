@@ -216,11 +216,10 @@
 }
 .uf-img-contact-form-01{
       max-width: 100%;
-      animation: uf-animation 6s ease-in-out 1s infinite alternate;
+      animation: uf-animation 4s ease-in-out 1s infinite alternate;
       position: relative ;
       top: 80%; left: 50%;
       transform: translate(-50%, 10%);
-      will-change: transform;
 
 }
 .uf-ct-01-text-primary{
@@ -236,9 +235,9 @@
 }
 
 @keyframes uf-animation {
-  0%   {transform: translate(-50%, 10%) translateY(0px);}
-  50%  {transform: translate(-50%, 10%) translateY(-20px);}
-  100% {transform: translate(-50%, 10%) translateY(0px);}
+  0%   {top:0px;}
+  50%  {top:-40px;}
+  100% {top:0px;}
 }
 .form-control:focus {
     border-color: #a979ff;
