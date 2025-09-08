@@ -1,0 +1,290 @@
+/* Road-type structure for topics */
+.topics-container {
+    min-height: 100vh;
+    padding: 100px 0;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.topics-header {
+    text-align: center;
+    margin-bottom: 80px;
+    color: #ffffff;
+    font-family: "Jersey 10", serif;
+}
+
+.topics-header h1 {
+    font-size: 100px;
+    font-weight: 200;
+    color: #9569FC;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.topics-header p {
+    font-size: 24px;
+    color: #ffffff;
+    font-family: "Jersey 10", serif;
+    letter-spacing: 1px;
+}
+
+/* Road Structure */
+.road-container {
+    position: relative;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+/* Main Road */
+.road {
+    position: relative;
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(90deg, #9569FC 0%, #171634 50%, #9569FC 100%);
+    border-radius: 4px;
+    margin: 100px 0;
+    box-shadow: 0 4px 15px rgba(149, 105, 252, 0.3);
+}
+
+/* Road Dashes */
+.road::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: repeating-linear-gradient(
+        90deg,
+        #ffffff 0px,
+        #ffffff 20px,
+        transparent 20px,
+        transparent 40px
+    );
+    transform: translateY(-50%);
+}
+
+/* Topic Stops */
+.topic-stops {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.topic-stop {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+.topic-stop:hover {
+    transform: translateY(-10px);
+}
+
+/* Topic Icons/Circles */
+.topic-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #9569FC, #171634);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 25px rgba(149, 105, 252, 0.4);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.topic-icon::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, #9569FC, #ffffff, #171634);
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.topic-stop:hover .topic-icon::before {
+    opacity: 1;
+}
+
+.topic-stop:hover .topic-icon {
+    transform: scale(1.1);
+    box-shadow: 0 12px 35px rgba(149, 105, 252, 0.6);
+}
+
+.topic-icon i {
+    font-size: 32px;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.topic-stop:hover .topic-icon i {
+    transform: scale(1.2);
+}
+
+/* Topic Labels */
+.topic-label {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 12px 20px;
+    border-radius: 25px;
+    border: 1px solid rgba(149, 105, 252, 0.3);
+    transition: all 0.3s ease;
+    text-align: center;
+    min-width: 150px;
+}
+
+.topic-label h3 {
+    font-family: "Koulen", serif;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.topic-stop:hover .topic-label {
+    background: rgba(149, 105, 252, 0.2);
+    border-color: #9569FC;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(149, 105, 252, 0.3);
+}
+
+/* Alternating positions */
+.topic-stop:nth-child(odd) {
+    flex-direction: column-reverse;
+    margin-top: -120px;
+}
+
+.topic-stop:nth-child(odd) .topic-label {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.topic-stop:nth-child(even) {
+    margin-bottom: -120px;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .topic-stops {
+        flex-wrap: wrap;
+        gap: 60px;
+        justify-content: center;
+    }
+    
+    .topic-stop {
+        flex: 0 0 calc(33.333% - 40px);
+        margin: 0 !important;
+    }
+    
+    .road {
+        display: none;
+    }
+    
+    .topics-header h1 {
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .topic-stops {
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .topic-stop {
+        flex: none;
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .topics-header h1 {
+        font-size: 60px;
+    }
+    
+    .topics-header p {
+        font-size: 20px;
+        padding: 0 20px;
+    }
+    
+    .road-container {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .topics-header h1 {
+        font-size: 45px;
+    }
+    
+    .topic-icon {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .topic-icon i {
+        font-size: 24px;
+    }
+    
+    .topic-label h3 {
+        font-size: 14px;
+    }
+}
+
+/* Animation for road appearance */
+@keyframes roadAppear {
+    from {
+        width: 0;
+        opacity: 0;
+    }
+    to {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+.road {
+    animation: roadAppear 2s ease-out;
+}
+
+/* Stagger animation for topic stops */
+.topic-stop {
+    opacity: 0;
+    animation: topicAppear 0.6s ease-out forwards;
+}
+
+.topic-stop:nth-child(1) { animation-delay: 0.2s; }
+.topic-stop:nth-child(2) { animation-delay: 0.4s; }
+.topic-stop:nth-child(3) { animation-delay: 0.6s; }
+.topic-stop:nth-child(4) { animation-delay: 0.8s; }
+.topic-stop:nth-child(5) { animation-delay: 1.0s; }
+.topic-stop:nth-child(6) { animation-delay: 1.2s; }
+.topic-stop:nth-child(7) { animation-delay: 1.4s; }
+
+@keyframes topicAppear {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
