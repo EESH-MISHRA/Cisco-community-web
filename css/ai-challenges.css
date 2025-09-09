@@ -1,47 +1,4 @@
 /* Challenges Page Styling */
-.challenges-container {
-    min-height: 100vh;
-    padding: 100px 0 50px;
-    position: relative;
-}
-
-.challenges-header {
-    text-align: center;
-    margin-bottom: 80px;
-    color: #ffffff;
-    font-family: "Jersey 10", serif;
-}
-
-.challenges-header h1 {
-    font-size: 100px;
-    font-weight: 200;
-    color: #9569FC;
-    margin-bottom: 20px;
-    letter-spacing: 2px;
-    position: relative;
-}
-
-/* .challenges-header h1::after {
-    content: "🚀";
-    position: absolute;
-    right: -80px;
-    top: 10px;
-    font-size: 60px;
-    animation: bounce 2s infinite;
-} */
-
-.challenges-header p {
-    font-size: 24px;
-    color: #ffffff;
-    font-family: "Jersey 10", serif;
-    letter-spacing: 1px;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-
-/* AI Challenges */
-
 .challenge-page-container {
     min-height: 100vh;
     padding: 100px 0 50px;
@@ -64,18 +21,7 @@
     position: relative;
 }
 
-
 /* Challenge Grid */
-.challenges-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 30px;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-/* AI Challenges */
 .challenge-page-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -84,7 +30,6 @@
     margin: 0 auto;
     padding: 0 20px;
 }
-
 
 /* Challenge Card */
 .challenge-card {
@@ -98,28 +43,6 @@
     position: relative;
     overflow: hidden;
     height: 600px;
-}
-
-/* AI Challenges */
-
-.challenge-card-content h3 {
-    font-family: "Koulen", serif;
-    font-size: 24px;
-    color: #9569FC;
-    text-align: center;
-    margin-bottom: 15px;
-    letter-spacing: 1px;
-    font-weight: 400;
-}
-
-.challenge-card-content p {
-    font-family: "Jersey 10", serif;
-    font-size: 18px;
-    color: #ffffff;
-    text-align: center;
-    line-height: 1.6;
-    margin-bottom: 20px;
-    letter-spacing: 0.5px;
 }
 
 
@@ -169,7 +92,7 @@
 }
 
 /* Challenge Content */
-.challenge-content h3 {
+.challenge-card-content h3 {
     font-family: "Koulen", serif;
     font-size: 24px;
     color: #9569FC;
@@ -179,7 +102,7 @@
     font-weight: 400;
 }
 
-.challenge-content p {
+.challenge-card-content p {
     font-family: "Jersey 10", serif;
     font-size: 18px;
     color: #ffffff;
@@ -247,31 +170,6 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .challenges-header h1 {
-        font-size: 70px;
-    }
-
-    .challenges-header h1::after {
-        right: -50px;
-        font-size: 40px;
-    }
-
-    .challenges-header p {
-        font-size: 20px;
-        padding: 0 20px;
-    }
-
-    .challenges-grid {
-        grid-template-columns: 1fr;
-        padding: 0 15px;
-    }
-
-    .challenge-card {
-        padding: 25px;
-    }
-
-
-    /* AI Challenges */
     .challenge-page-header h1 {
         font-size: 70px;
     }
@@ -297,11 +195,11 @@
 }
 
 @media (max-width: 480px) {
-    .challenges-header h1 {
+    .challenge-page-header h1 {
         font-size: 50px;
     }
 
-    .challenges-header h1::after {
+    .challenge-page-header h1::after {
         display: none;
     }
 
@@ -314,26 +212,6 @@
         font-size: 24px;
     }
 
-    .challenge-content h3 {
-        font-size: 20px;
-    }
-
-    .challenge-content p {
-        font-size: 16px;
-    }
-
-
-
-    /* AI Challenges */
-
-    .challenge-page-header h1 {
-        font-size: 50px;
-    }
-
-    .challenge-page-header h1::after {
-        display: none;
-    }
-
     .challenge-card-content h3 {
         font-size: 20px;
     }
@@ -341,7 +219,6 @@
     .challenge-card-content p {
         font-size: 16px;
     }
-
 }
 
 /* Animation for cards */
