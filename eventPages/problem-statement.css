@@ -184,9 +184,9 @@
 .challenge-card-header h2::before {
     content: '';
     position: absolute;
-    left: 10%;
-    right: 10%;
-    top: -18px;
+    left: auto;
+    right: auto;
+    top: 1px;
     height: 2px;
     background: linear-gradient(90deg, transparent, #9569FC, transparent);
     opacity: 0.6;
@@ -196,9 +196,9 @@
 .challenge-card-header h2::after {
     content: '';
     position: absolute;
-    left: 10%;
-    right: 10%;
-    bottom: -18px;
+    left: auto;
+    right: auto;
+    top: 54px;
     height: 2px;
     background: linear-gradient(90deg, transparent, #9569FC, transparent);
     opacity: 0.6;

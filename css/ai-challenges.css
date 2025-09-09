@@ -1,18 +1,18 @@
 /* Challenges Page Styling */
-.challenges-container {
+.challenge-page-container {
     min-height: 100vh;
     padding: 100px 0 50px;
     position: relative;
 }
 
-.challenges-header {
+.challenge-page-header {
     text-align: center;
     margin-bottom: 80px;
     color: #ffffff;
     font-family: "Jersey 10", serif;
 }
 
-.challenges-header h1 {
+.challenge-page-header h1 {
     font-size: 100px;
     font-weight: 200;
     color: #9569FC;
@@ -21,26 +21,8 @@
     position: relative;
 }
 
-/* .challenges-header h1::after {
-    content: "🚀";
-    position: absolute;
-    right: -80px;
-    top: 10px;
-    font-size: 60px;
-    animation: bounce 2s infinite;
-} */
-
-.challenges-header p {
-    font-size: 24px;
-    color: #ffffff;
-    font-family: "Jersey 10", serif;
-    letter-spacing: 1px;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
 /* Challenge Grid */
-.challenges-grid {
+.challenge-page-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 30px;
@@ -60,7 +42,9 @@
     cursor: pointer;
     position: relative;
     overflow: hidden;
+    height: 600px;
 }
+
 
 .challenge-card::before {
     content: '';
@@ -108,7 +92,7 @@
 }
 
 /* Challenge Content */
-.challenge-content h3 {
+.challenge-card-content h3 {
     font-family: "Koulen", serif;
     font-size: 24px;
     color: #9569FC;
@@ -118,7 +102,7 @@
     font-weight: 400;
 }
 
-.challenge-content p {
+.challenge-card-content p {
     font-family: "Jersey 10", serif;
     font-size: 18px;
     color: #ffffff;
@@ -186,65 +170,72 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .challenges-header h1 {
+    .challenge-page-header h1 {
         font-size: 70px;
     }
-    
-    .challenges-header h1::after {
+
+    .challenge-page-header h1::after {
         right: -50px;
         font-size: 40px;
     }
-    
-    .challenges-header p {
+
+    .challenge-page-header p {
         font-size: 20px;
         padding: 0 20px;
     }
-    
-    .challenges-grid {
+
+    .challenge-page-grid {
         grid-template-columns: 1fr;
         padding: 0 15px;
     }
-    
-    .challenge-card {
+
+    .challenge-card-content {
         padding: 25px;
     }
 }
 
 @media (max-width: 480px) {
-    .challenges-header h1 {
+    .challenge-page-header h1 {
         font-size: 50px;
     }
-    
-    .challenges-header h1::after {
+
+    .challenge-page-header h1::after {
         display: none;
     }
-    
+
     .challenge-icon {
         width: 60px;
         height: 60px;
     }
-    
+
     .challenge-icon i {
         font-size: 24px;
     }
-    
-    .challenge-content h3 {
+
+    .challenge-card-content h3 {
         font-size: 20px;
     }
-    
-    .challenge-content p {
+
+    .challenge-card-content p {
         font-size: 16px;
     }
 }
 
 /* Animation for cards */
 @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
         transform: translateY(0);
     }
+
     40% {
         transform: translateY(-10px);
     }
+
     60% {
         transform: translateY(-5px);
     }
@@ -255,19 +246,40 @@
     animation: cardAppear 0.6s ease-out forwards;
 }
 
-.challenge-card:nth-child(1) { animation-delay: 0.1s; }
-.challenge-card:nth-child(2) { animation-delay: 0.2s; }
-.challenge-card:nth-child(3) { animation-delay: 0.3s; }
-.challenge-card:nth-child(4) { animation-delay: 0.4s; }
-.challenge-card:nth-child(5) { animation-delay: 0.5s; }
-.challenge-card:nth-child(6) { animation-delay: 0.6s; }
-.challenge-card:nth-child(7) { animation-delay: 0.7s; }
+.challenge-card:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.challenge-card:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.challenge-card:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.challenge-card:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+.challenge-card:nth-child(5) {
+    animation-delay: 0.5s;
+}
+
+.challenge-card:nth-child(6) {
+    animation-delay: 0.6s;
+}
+
+.challenge-card:nth-child(7) {
+    animation-delay: 0.7s;
+}
 
 @keyframes cardAppear {
     from {
         opacity: 0;
         transform: translateY(50px) scale(0.9);
     }
+
     to {
         opacity: 1;
         transform: translateY(0) scale(1);
