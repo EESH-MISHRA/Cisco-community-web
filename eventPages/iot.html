@@ -151,36 +151,40 @@
                     <div class="requirements">
                         <h4>Requirements:</h4>
                         <ul>
-                            <li>Integration of 20+ IoT sensors (temperature, humidity, motion, light, etc.)</li>
-                            <li>Predictive analytics for energy optimization (30% reduction target)</li>
-                            <li>Real-time security monitoring with facial recognition</li>
-                            <li>Voice and mobile app control interfaces</li>
-                            <li>Machine learning for behavior pattern recognition</li>
-                            <li>Edge computing for low-latency responses</li>
+                            <li>A mobile application (for Android and iOS) to automatically collect network data in the background</li>
+                            <li>A backend server and database to store and process the crowdsourced data.</li>
+                            <li>A machine learning model to generate a predictive heatmap of network quality</li>
+                            <li>Integration with a mapping service (like Google Maps or OpenStreetMap) to visualize the data.</li>
                         </ul>
                     </div>
 
                     <div class="deliverables">
-                        <h4>Deliverables:</h4>
+                        <h4>Outcomes:</h4>
                         <ul>
-                            <li>IoT system architecture and sensor deployment plan</li>
-                            <li>Working prototype with key functionalities</li>
-                            <li>Mobile application for system control</li>
-                            <li>Energy optimization algorithm and results</li>
-                            <li>Security implementation and testing report</li>
+                            <li>A real-time, dynamic map of campus network quality.</li>
+                            <li>Actionable insights for the university's IT department to improve network infrastructure</li>
+                            <li>Improved ability for students to find reliable connectivity when they need it most</li>
                         </ul>
                     </div>
 
                     <div class="evaluation-criteria">
-                        <h4>Evaluation Criteria:</h4>
+                        <h4>Conditions:</h4>
                         <ul>
-                            <li>System functionality and innovation (35%)</li>
-                            <li>Energy optimization effectiveness (25%)</li>
-                            <li>User interface and experience (20%)</li>
-                            <li>Security implementation (15%)</li>
-                            <li>Technical documentation (5%)</li>
+                            <li>Sufficient user adoption is critical for gathering enough data to create a useful map</li>
+                            <li>The app must request necessary permissions (location, network state) from the user.</li>
+                            <li>All collected data must be anonymized to protect user privacy.</li>
                         </ul>
                     </div>
+                    <div class="evaluation-criteria">
+                        <h4>Potential Datasets:</h4>
+                        <li>This project primarily relies on generating its own dataset through crowdsourcing.</li>
+                        <li>UCI Wireless Indoor Localization Data Set: While focused on indoor positioning, this dataset contains extensive Wi-Fi signal strength measurements (RSSI) from multiple access points.
+                            It's excellent for developing initial models to process and interpret signal data.
+                             Link to UCI Dataset</li>
+                        <li>Kaggle WiFi Localization Dataset: This dataset contains WiFi signal strength data collected in an indoor space. 
+                            It's useful for understanding how signal strength varies by location, which is a core part of this project idea. 
+                            Link to Kaggle Dataset</li>
+                        </div>
 
                     <div class="challenge-info">
                         <div class="info-item">
@@ -189,7 +193,7 @@
                         </div>
                         <div class="info-item">
                             <i class="fas fa-users"></i>
-                            <span>Team Size: 2-4 Members</span>
+                            <span>Team Size: 1 Member</span>
                         </div>
                         <div class="info-item">
                             <i class="fas fa-trophy"></i>
@@ -226,36 +230,38 @@
                         IoT Solution: A smart mess system that optimizes food preparation and reduces waste.</p>
 
                     <div class="requirements">
-                        <h4>Requirements:</h4>
+                        <h4>Key Requirements:</h4>
                         <ul>
-                            <li>Integration of 20+ IoT sensors (temperature, humidity, motion, light, etc.)</li>
-                            <li>Predictive analytics for energy optimization (30% reduction target)</li>
-                            <li>Real-time security monitoring with facial recognition</li>
-                            <li>Voice and mobile app control interfaces</li>
-                            <li>Machine learning for behavior pattern recognition</li>
-                            <li>Edge computing for low-latency responses</li>
+                            <li>Hardware: RFID/NFC scanners at the mess entrance, IoT-enabled weight sensors for large food containers.</li>
+                            <li>A central cloud platform to receive and process data from the IoT devices</li>
+                            <li>A predictive AI model to forecast student attendance and food consumption.</li>
+                            <li>A dashboard for the mess manager to view real-time attendance, inventory levels, and demand forecasts.</li>
+                            <li>An alerting system for low inventory levels.</li>
                         </ul>
                     </div>
 
                     <div class="deliverables">
-                        <h4>Deliverables:</h4>
+                        <h4>Outcomes</h4>
                         <ul>
-                            <li>IoT system architecture and sensor deployment plan</li>
-                            <li>Working prototype with key functionalities</li>
-                            <li>Mobile application for system control</li>
-                            <li>Energy optimization algorithm and results</li>
-                            <li>Security implementation and testing report</li>
+                            <li>A significant reduction in food waste (e.g., a 20-30% reduction).</li>
+                            <li>Automated and optimized inventory management, preventing shortages.</li>
+                            <li>Cost savings for the hostel administration through efficient purchasing.</li>
                         </ul>
                     </div>
 
                     <div class="evaluation-criteria">
-                        <h4>Evaluation Criteria:</h4>
+                        <h4>Conditions:</h4>
                         <ul>
-                            <li>System functionality and innovation (35%)</li>
-                            <li>Energy optimization effectiveness (25%)</li>
-                            <li>User interface and experience (20%)</li>
-                            <li>Security implementation (15%)</li>
-                            <li>Technical documentation (5%)</li>
+                            <li>Requires initial investment in hardware and installation.</li>
+                            <li>Reliable internet connectivity is needed for the IoT devices to function correctly</li>
+                            <li>Integration with the existing student ID card system (if RFID/NFC enabled) is highly desirable.</li>
+                        </ul>
+                    </div>
+                    <div class="evaluation-criteria">
+                        <h4>Potential-dataset</h4>
+                        <ul>
+                            <li>This system will generate its own dataset</li>
+                            <li>For initial modeling, one could look at generic food consumption or restaurant demand forecasting datasets on platforms like Kaggle to understand patterns, though they won't be specific to a hostel environment.</li>
                         </ul>
                     </div>
 
@@ -266,7 +272,7 @@
                         </div>
                         <div class="info-item">
                             <i class="fas fa-users"></i>
-                            <span>Team Size: 2-4 Members</span>
+                            <span>Team Size: 1 Member</span>
                         </div>
                         <div class="info-item">
                             <i class="fas fa-trophy"></i>
