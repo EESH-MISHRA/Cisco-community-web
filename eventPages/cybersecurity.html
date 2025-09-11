@@ -28,8 +28,8 @@
                 </div>
                 <div class="navham wrapMenu">
                     <div class="menu menu--top-right" id="menu_top_right">
-                      <a class="menu__btn" dd-nav-expand="menu_top_right"><i class="fa fa-bars"></i></a>
-                      <ul class="menu__list">
+                    <a class="menu__btn" dd-nav-expand="menu_top_right"><i class="fa fa-bars"></i></a>
+                    <ul class="menu__list">
                         <li><a href="/index.html">Home</a></li>
                         <li><a href="/index.html#about-container">About</a></li>
                         <li><a href="/index.html#gallery-cont">Gallery</a></li>
@@ -37,29 +37,26 @@
                         <li><a href="/pages/challenges.html">New Event!</a></li>
                         <li><a href="/index.html#contact-form">Contact</a></li>
                         <li><a href="#">Blog</a></li>
-                      </ul>
+                    </ul>
                     </div>
-                  </div>
+                </div>
                 <div class="nav-button">
                     <a href="" class="nav-button">Blogs <i class="bi bi-caret-right-fill"></i></a>
                 </div>
         </div>
     </div>
     <div class="challenges-content">
-        <!-- Challenge Page Heading -->
         <div class="challenge-title">
             <h1>CYBERSECURITY CHALLENGE</h1>
         </div>
     </div>
-    <!-- Challenge Page Container -->
     <div class="challenge-page-container">
-        <div class="challenge-card-container" onclick="openPopup()">
+        <div class="challenge-card-container" onclick="openPopup1()">
             <div class="challenge-card">
                 <div class="challenge-card-header">
                     <h2>CHALLENGE PROBLEM STATEMENT 1</h2>
                     <div class="difficulty-badge difficulty-hard">ADVANCED LEVEL</div>
                 </div>
-
                 <div class="challenge-card-content">
                     <h3>The "Phishing Shield"</h3>
                     <div class="challenge-meta">
@@ -76,7 +73,64 @@
                             <span>₹60,000</span>
                         </div>
                     </div>
-
+                    <button class="view-details-btn">
+                        <i class="fas fa-eye"></i> View Full Details
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="challenge-card-container" onclick="openPopup2()">
+            <div class="challenge-card">
+                <div class="challenge-card-header">
+                    <h2>CHALLENGE PROBLEM STATEMENT 2</h2>
+                    <div class="difficulty-badge difficulty-hard">ADVANCED LEVEL</div>
+                </div>
+                <div class="challenge-card-content">
+                    <h3>The "Transaction Sentinel"</h3>
+                    <div class="challenge-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span>36 Hours</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-users"></i>
+                            <span>1 Member</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-trophy"></i>
+                            <span>₹60,000</span>
+                        </div>
+                    </div>
+                    <button class="view-details-btn">
+                        <i class="fas fa-eye"></i> View Full Details
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="challenge-card-container" onclick="openPopup3()">
+            <div class="challenge-card">
+                <div class="challenge-card-header">
+                    <h2>CHALLENGE PROBLEM STATEMENT 3</h2>
+                    <div class="difficulty-badge difficulty-hard">ADVANCED LEVEL</div>
+                </div>
+                <div class="challenge-card-content">
+                    <h3>The "Profile Purity" Detector</h3>
+                    <div class="challenge-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span>36 Hours</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-users"></i>
+                            <span>1 Member</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-trophy"></i>
+                            <span>₹60,000</span>
+                        </div>
+                    </div>
                     <button class="view-details-btn">
                         <i class="fas fa-eye"></i> View Full Details
                     </button>
@@ -85,37 +139,29 @@
         </div>
     </div>
 
-    <!-- Popup Overlay -->
-    <div class="popup-overlay" id="challengePopup">
+    <div class="popup-overlay" id="challengePopup1">
         <div class="popup-content">
-            <button class="popup-close" onclick="closePopup()">
+            <button class="popup-close" onclick="closePopup1()">
                 <i class="fas fa-times"></i>
             </button>
-
             <div class="problem-statement-container">
                 <div class="problem-header">
                     <h2>CYBERSECURITY CHALLENGE - FULL DETAILS</h2>
                     <div class="difficulty-badge difficulty-hard">ADVANCED LEVEL</div>
                 </div>
-
                 <div class="problem-content">
                     <h3>The "Phishing Shield"</h3>
-                    <p><strong>Description:</strong> : An intelligent tool that uses AI to detect sophisticated phishing emails that traditional spam filters miss.
-                        It solves the problem of increasingly clever phishing attacks by analyzing email context for unusual activity, not just bad links. 
-                        The system can also "virtually" visit a suspicious link in a secure sandbox to analyze the landing page for signs of a scam.
-                        It then warns the user with a simple, color-coded alert (Green, Yellow, Red) that is easy to understand.</p>
-
+                    <p><strong>Description:</strong> An intelligent tool that uses AI to detect sophisticated phishing emails that traditional spam filters miss. It solves the problem of increasingly clever phishing attacks by analyzing email context for unusual activity, not just bad links. The system can also "virtually" visit a suspicious link in a secure sandbox to analyze the landing page for signs of a scam. It then warns the user with a simple, color-coded alert (Green, Yellow, Red) that is easy to understand.</p>
                     <div class="requirements">
                         <h4>Key Requirements:</h4>
                         <ul>
-                            <li>AI/ML model for natural language processing (NLP) to analyze email text and context</li>
+                            <li>AI/ML model for natural language processing (NLP) to analyze email text and context.</li>
                             <li>A secure, isolated sandbox environment to safely render and analyze web pages from suspicious links.</li>
                             <li>Integration with common email clients (e.g., as a browser extension for Gmail or an Outlook add-in).</li>
                             <li>A simple and intuitive user interface for displaying threat levels (e.g., color-coded alerts).</li>
                             <li>Real-time URL scanning and analysis capabilities.</li>
                         </ul>
                     </div>
-
                     <div class="deliverables">
                         <h4>Outcomes:</h4>
                         <ul>
@@ -124,25 +170,22 @@
                             <li>A measurable accuracy rate (e.g., >95%) in correctly identifying phishing emails while minimizing false positives.</li>
                         </ul>
                     </div>
-
                     <div class="evaluation-criteria">
-                        <h4>Condition:</h4>
+                        <h4>Conditions:</h4>
                         <ul>
                             <li>The system must have access to email content for analysis, which requires user consent and strong privacy safeguards.</li>
-                            <li>The sandboxing environment must be completely isolated to prevent any potential malware from affecting the user's system</li>
-                            <li>The model must be continuously updated to recognize new and evolving phishing techniques</li>
+                            <li>The sandboxing environment must be completely isolated to prevent any potential malware from affecting the user's system.</li>
+                            <li>The model must be continuously updated to recognize new and evolving phishing techniques.</li>
                         </ul>
                     </div>
-
                     <div class="evaluation-criteria">
                         <h4>Potential Datasets:</h4>
                         <ul>
-                            <li>PhishTank: A collaborative clearinghouse for data and information about phishing on the Internet.&nbsp;<a href="https://www.phishtank.com/">Link to Phishtank</a></li>
-                            <li>Kaggle Phishing Email Dataset: A collection of emails labeled as phishing or legitimate.&nbsp;<a href="https://www.kaggle.com/datasets/subhajournal/phishingemails">Link on Kaggle</a></li>
-                            <li>The model must be continuously updated to recognize new and evolving phishing techniques.&nbsp;<a href="https://www.unb.ca/cic/datasets/url-2016.html">Link to UNB Dataset</a></li>
+                            <li>PhishTank: A collaborative clearinghouse for data and information about phishing on the Internet. <a href="https://www.phishtank.com/">Link to Phishtank</a></li>
+                            <li>Kaggle Phishing Email Dataset: A collection of emails labeled as phishing or legitimate. <a href="https://www.kaggle.com/datasets/subhajournal/phishingemails">Link on Kaggle</a></li>
+                            <li>ISCX-URL-2016: A dataset of malicious and benign URLs that can be used for training URL analysis models. <a href="https://www.unb.ca/cic/datasets/url-2016.html">Link to UNB Dataset</a></li>
                         </ul>
                     </div>
-
                     <div class="challenge-info">
                         <div class="info-item">
                             <i class="fas fa-clock"></i>
@@ -157,7 +200,6 @@
                             <span>Prize Pool: ₹60,000</span>
                         </div>
                     </div>
-
                     <div class="action-buttons">
                         <button class="register-btn">Register Now</button>
                         <button class="download-btn">Download Resources</button>
@@ -167,51 +209,224 @@
         </div>
     </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://unpkg.com/scrollreveal"></script>
-<script src="../js/navbar.js"></script>
+    <div class="popup-overlay" id="challengePopup2">
+        <div class="popup-content">
+            <button class="popup-close" onclick="closePopup2()">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="problem-statement-container">
+                <div class="problem-header">
+                    <h2>CYBERSECURITY CHALLENGE - FULL DETAILS</h2>
+                    <div class="difficulty-badge difficulty-medium">INTERMEDIATE LEVEL</div>
+                </div>
+                <div class="problem-content">
+                    <h3>The "Transaction Sentinel"</h3>
+                    <p><strong>Description:</strong> A real-time, AI-powered system to combat financial fraud. The model analyzes transaction patterns, user behavior (time of day, location, purchase amount), and device data to instantly flag suspicious activity. The solution would be trained on a dataset of transactions to learn what constitutes normal behavior for a user and would be able to detect anomalies with high accuracy, minimizing false positives and protecting both customers and businesses from financial loss.</p>
+                    <div class="requirements">
+                        <h4>Key Requirements:</h4>
+                        <ul>
+                            <li>A real-time data processing pipeline capable of handling high volumes of transactions.</li>
+                            <li>An anomaly detection model trained on user-specific and general transaction patterns.</li>
+                            <li>Secure integration with financial systems and payment gateways.</li>
+                            <li>A dashboard for fraud analysts to review and act on flagged transactions.</li>
+                            <li>Compliance with financial data security standards (e.g., PCI DSS).</li>
+                        </ul>
+                    </div>
+                    <div class="deliverables">
+                        <h4>Outcomes:</h4>
+                        <ul>
+                            <li>A quantifiable reduction in fraudulent transaction losses.</li>
+                            <li>A low false-positive rate to ensure legitimate transactions are not blocked unnecessarily.</li>
+                            <li>Improved trust and security for customers.</li>
+                        </ul>
+                    </div>
+                    <div class="evaluation-criteria">
+                        <h4>Conditions:</h4>
+                        <ul>
+                            <li>Access to large volumes of anonymized transaction data is essential for training the model.</li>
+                            <li>The system must operate with very low latency to approve or flag transactions in real-time.</li>
+                            <li>The model must be adaptable to changing fraud patterns.</li>
+                        </ul>
+                    </div>
+                    <div class="evaluation-criteria">
+                        <h4>Potential Datasets:</h4>
+                        <ul>
+                            <li>Kaggle Credit Card Fraud Detection: A highly popular and standardized dataset for fraud detection. <a href="https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud">Link on Kaggle</a></li>
+                            <li>IEEE-CIS Fraud Detection: A large and comprehensive dataset from a real-world financial services company. <a href="https://www.kaggle.com/c/ieee-fraud-detection">Link on Kaggle</a></li>
+                        </ul>
+                    </div>
+                    <div class="challenge-info">
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Duration: 36 Hours</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-users"></i>
+                            <span>Team Size: 1 Member</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-trophy"></i>
+                            <span>Prize Pool: ₹60,000</span>
+                        </div>
+                    </div>
+                    <div class="action-buttons">
+                        <button class="register-btn">Register Now</button>
+                        <button class="download-btn">Download Resources</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<script>
-    function openPopup() {
-        const popup = document.getElementById('challengePopup');
-        popup.classList.add('active');
-        document.body.style.overflow = 'hidden';
-    }
+    <div class="popup-overlay" id="challengePopup3">
+        <div class="popup-content">
+            <button class="popup-close" onclick="closePopup3()">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="problem-statement-container">
+                <div class="problem-header">
+                    <h2>CYBERSECURITY CHALLENGE - FULL DETAILS</h2>
+                    <div class="difficulty-badge difficulty-medium">INTERMEDIATE LEVEL</div>
+                </div>
+                <div class="problem-content">
+                    <h3>The "Profile Purity" Detector</h3>
+                    <p><strong>Description:</strong> A tool that uses a multi-faceted AI model to identify fake social media accounts. The system would analyze various features of a profile, such as the age of the account, friend-to-follower ratio, the sentiment and coherence of posts (using NLP), and even the profile picture (using a vision model to detect stock photos or AI-generated faces). The tool would then provide a "trust score" for any given social media profile.</p>
+                    <div class="requirements">
+                        <h4>Key Requirements:</h4>
+                        <ul>
+                            <li>An NLP model to analyze the text content of posts for sentiment, grammar, and coherence.</li>
+                            <li>A computer vision model to analyze profile pictures for signs of being stock photos or AI-generated.</li>
+                            <li>A data aggregation module to collect various profile metrics (account age, follower ratio, etc.).</li>
+                            <li>A weighted scoring algorithm to combine these features into a single "trust score."</li>
+                        </ul>
+                    </div>
+                    <div class="deliverables">
+                        <h4>Outcomes:</h4>
+                        <ul>
+                            <li>An accurate and reliable system for identifying fake profiles, bots, and trolls on social media.</li>
+                            <li>Improved platform integrity and a safer online environment for users.</li>
+                            <li>A clear and understandable trust score to help users make informed decisions.</li>
+                        </ul>
+                    </div>
+                    <div class="evaluation-criteria">
+                        <h4>Conditions:</h4>
+                        <ul>
+                            <li>The tool must operate within the terms of service of the social media platforms it analyzes.</li>
+                            <li>The models must be trained on a diverse dataset to avoid bias and ensure accuracy across different types of profiles.</li>
+                            <li>Ethical considerations regarding user data privacy must be addressed.</li>
+                        </ul>
+                    </div>
+                    <div class="evaluation-criteria">
+                        <h4>Potential Datasets:</h4>
+                        <ul>
+                            <li>TwiBot-22: A comprehensive dataset for Twitter bot detection. <a href="https://github.com/Yingtong-Liu/TwiBot-22">Link to TwiBot-22 on GitHub</a></li>
+                            <li>Kaggle Social Media Fake Profile Detection: A dataset with various features for classifying fake and real accounts. <a href="https://www.kaggle.com/datasets/mkrai07/social-media-fake-profile-detection">Link on Kaggle</a></li>
+                        </ul>
+                    </div>
+                    <div class="challenge-info">
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Duration: 36 Hours</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-users"></i>
+                            <span>Team Size: 1 Member</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-trophy"></i>
+                            <span>Prize Pool: ₹60,000</span>
+                        </div>
+                    </div>
+                    <div class="action-buttons">
+                        <button class="register-btn">Register Now</button>
+                        <button class="download-btn">Download Resources</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="../js/navbar.js"></script>
 
-    function closePopup() {
-        const popup = document.getElementById('challengePopup');
-        popup.classList.remove('active');
-        document.body.style.overflow = 'auto';
-    }
-
-    // Close popup when clicking outside
-    document.getElementById('challengePopup').addEventListener('click', function(e) {
-        if (e.target === this) {
-            closePopup();
+    <script>
+        function openPopup1() {
+            const popup = document.getElementById('challengePopup1');
+            popup.classList.add('active');
+            document.body.style.overflow = 'hidden';
         }
-    });
 
-    // Close popup with Escape key
-    document.addEventListener('keydown', function(e) {
-        if (e.key === 'Escape') {
-            closePopup();
+        function closePopup1() {
+            const popup = document.getElementById('challengePopup1');
+            popup.classList.remove('active');
+            document.body.style.overflow = 'auto';
         }
-    });
 
-    // Add scroll reveal animations
-    if (typeof ScrollReveal !== 'undefined') {
-        ScrollReveal({
-            reset: true,
-            distance: '100px',
-            duration: 2000,
-            delay: 0
+        function openPopup2() {
+            const popup = document.getElementById('challengePopup2');
+            popup.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closePopup2() {
+            const popup = document.getElementById('challengePopup2');
+            popup.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        function openPopup3() {
+            const popup = document.getElementById('challengePopup3');
+            popup.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closePopup3() {
+            const popup = document.getElementById('challengePopup3');
+            popup.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close popups when clicking outside
+        document.getElementById('challengePopup1').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closePopup1();
+            }
+        });
+        document.getElementById('challengePopup2').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closePopup2();
+            }
+        });
+        document.getElementById('challengePopup3').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closePopup3();
+            }
         });
 
-        ScrollReveal().reveal('.challenge-title', {delay: 0, origin: 'top'});
-        ScrollReveal().reveal('.challenge-card-container', {delay: 300, origin: 'bottom'});
-    }
-</script>
+        // Close popups with Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closePopup1();
+                closePopup2();
+                closePopup3();
+            }
+        });
+
+        // Add scroll reveal animations
+        if (typeof ScrollReveal !== 'undefined') {
+            ScrollReveal({
+                reset: true,
+                distance: '100px',
+                duration: 2000,
+                delay: 0
+            });
+
+            ScrollReveal().reveal('.challenge-title', {delay: 0, origin: 'top'});
+            ScrollReveal().reveal('.challenge-card-container', {delay: 300, origin: 'bottom'});
+        }
+    </script>
 </body>
 </html>
