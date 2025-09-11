@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="./link.css">
     <link rel="stylesheet" href="./problem-statement.css">
+    <link rel="stylesheet" href="../css/cyber_challenge.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
@@ -44,34 +45,31 @@
                 </div>
         </div>
     </div>
-
-    <!-- Challenge Page Container -->
-    <div class="challenge-page-container">
+    <div class="challenges-content">
+        <!-- Challenge Page Heading -->
         <div class="challenge-title">
             <h1>CYBERSECURITY CHALLENGE</h1>
         </div>
-
+    </div>
+    <!-- Challenge Page Container -->
+    <div class="challenge-page-container">
         <div class="challenge-card-container" onclick="openPopup()">
             <div class="challenge-card">
                 <div class="challenge-card-header">
-                    <h2>CHALLENGE PROBLEM STATEMENT</h2>
+                    <h2>CHALLENGE PROBLEM STATEMENT 1</h2>
                     <div class="difficulty-badge difficulty-hard">ADVANCED LEVEL</div>
                 </div>
 
                 <div class="challenge-card-content">
-                    <h3>Zero-Trust Security Framework with AI</h3>
-                    <div class="challenge-preview">
-                        <p><strong>Scenario:</strong> Develop a comprehensive zero-trust security framework with AI-powered threat detection for a multinational corporation with 50,000+ employees working remotely and on-premises.</p>
-                    </div>
-
+                    <h3>The "Phishing Shield"</h3>
                     <div class="challenge-meta">
                         <div class="meta-item">
                             <i class="fas fa-clock"></i>
-                            <span>48 Hours</span>
+                            <span>36 Hours</span>
                         </div>
                         <div class="meta-item">
                             <i class="fas fa-users"></i>
-                            <span>3-5 Members</span>
+                            <span>1 Member</span>
                         </div>
                         <div class="meta-item">
                             <i class="fas fa-trophy"></i>
@@ -101,51 +99,58 @@
                 </div>
 
                 <div class="problem-content">
-                    <h3>Zero-Trust Security Framework with AI</h3>
-                    <p><strong>Scenario:</strong> Develop a comprehensive zero-trust security framework with AI-powered threat detection for a multinational corporation with 50,000+ employees working remotely and on-premises.</p>
+                    <h3>The "Phishing Shield"</h3>
+                    <p><strong>Description:</strong> : An intelligent tool that uses AI to detect sophisticated phishing emails that traditional spam filters miss.
+                        It solves the problem of increasingly clever phishing attacks by analyzing email context for unusual activity, not just bad links. 
+                        The system can also "virtually" visit a suspicious link in a secure sandbox to analyze the landing page for signs of a scam.
+                        It then warns the user with a simple, color-coded alert (Green, Yellow, Red) that is easy to understand.</p>
 
                     <div class="requirements">
-                        <h4>Requirements:</h4>
+                        <h4>Key Requirements:</h4>
                         <ul>
-                            <li>Zero-trust architecture implementation across all endpoints</li>
-                            <li>AI-powered behavioral analysis for anomaly detection</li>
-                            <li>Real-time threat response and automated mitigation</li>
-                            <li>Multi-factor authentication with biometric integration</li>
-                            <li>Compliance with GDPR, HIPAA, and SOC 2 standards</li>
-                            <li>Incident response automation and forensics capabilities</li>
+                            <li>AI/ML model for natural language processing (NLP) to analyze email text and context</li>
+                            <li>A secure, isolated sandbox environment to safely render and analyze web pages from suspicious links.</li>
+                            <li>Integration with common email clients (e.g., as a browser extension for Gmail or an Outlook add-in).</li>
+                            <li>A simple and intuitive user interface for displaying threat levels (e.g., color-coded alerts).</li>
+                            <li>Real-time URL scanning and analysis capabilities.</li>
                         </ul>
                     </div>
 
                     <div class="deliverables">
-                        <h4>Deliverables:</h4>
+                        <h4>Outcomes:</h4>
                         <ul>
-                            <li>Zero-trust architecture design and implementation plan</li>
-                            <li>AI threat detection system with training datasets</li>
-                            <li>Security policy framework and compliance mapping</li>
-                            <li>Incident response playbook and automation scripts</li>
-                            <li>Security assessment and penetration testing report</li>
+                            <li>A significant reduction in successful phishing attacks for users.</li>
+                            <li>Increased user awareness and ability to recognize phishing attempts.</li>
+                            <li>A measurable accuracy rate (e.g., >95%) in correctly identifying phishing emails while minimizing false positives.</li>
                         </ul>
                     </div>
 
                     <div class="evaluation-criteria">
-                        <h4>Evaluation Criteria:</h4>
+                        <h4>Condition:</h4>
                         <ul>
-                            <li>Security architecture effectiveness (30%)</li>
-                            <li>AI implementation and accuracy (25%)</li>
-                            <li>Compliance and governance (20%)</li>
-                            <li>Automation and response capabilities (15%)</li>
-                            <li>Innovation and threat intelligence (10%)</li>
+                            <li>The system must have access to email content for analysis, which requires user consent and strong privacy safeguards.</li>
+                            <li>The sandboxing environment must be completely isolated to prevent any potential malware from affecting the user's system</li>
+                            <li>The model must be continuously updated to recognize new and evolving phishing techniques</li>
+                        </ul>
+                    </div>
+
+                    <div class="evaluation-criteria">
+                        <h4>Potential Datasets:</h4>
+                        <ul>
+                            <li>PhishTank: A collaborative clearinghouse for data and information about phishing on the Internet.&nbsp;<a href="https://www.phishtank.com/">Link to Phishtank</a></li>
+                            <li>Kaggle Phishing Email Dataset: A collection of emails labeled as phishing or legitimate.&nbsp;<a href="https://www.kaggle.com/datasets/subhajournal/phishingemails">Link on Kaggle</a></li>
+                            <li>The model must be continuously updated to recognize new and evolving phishing techniques.&nbsp;<a href="https://www.unb.ca/cic/datasets/url-2016.html">Link to UNB Dataset</a></li>
                         </ul>
                     </div>
 
                     <div class="challenge-info">
                         <div class="info-item">
                             <i class="fas fa-clock"></i>
-                            <span>Duration: 48 Hours</span>
+                            <span>Duration: 36 Hours</span>
                         </div>
                         <div class="info-item">
                             <i class="fas fa-users"></i>
-                            <span>Team Size: 3-5 Members</span>
+                            <span>Team Size: 1 Member</span>
                         </div>
                         <div class="info-item">
                             <i class="fas fa-trophy"></i>
