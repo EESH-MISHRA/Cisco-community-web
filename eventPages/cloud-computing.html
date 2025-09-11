@@ -45,37 +45,33 @@
         </div>
     </div>
 
-    <!-- Challenge Page Container -->
+    <!-- Challenge Page Container-1 -->
     <div class="challenge-page-container">
-        <div class="challenge-title">
-            <h1>CLOUD COMPUTING CHALLENGE</h1>
-        </div>
-
-        <div class="challenge-card-container" onclick="openPopup()">
+        <div class="challenge-card-container" onclick="openPopup('challengePopup-1')">
             <div class="challenge-card">
                 <div class="challenge-card-header">
-                    <h2>CHALLENGE PROBLEM STATEMENT</h2>
-                    <div class="difficulty-badge difficulty-hard">ADVANCED LEVEL</div>
+                    <h2>CHALLENGE PROBLEM STATEMENT 1</h2>
+                    <div class="difficulty-badge difficulty-medium">INTERMEDIATE LEVEL</div>
                 </div>
 
                 <div class="challenge-card-content">
-                    <h3>Multi-Cloud Disaster Recovery Solution</h3>
+                    <h3>The "Bandwidth-Smart" Cloud Backup</h3>
                     <div class="challenge-preview">
-                        <p><strong>Scenario:</strong> Design and implement a comprehensive multi-cloud disaster recovery solution for a financial services company that processes 1 million transactions daily across AWS, Azure, and Google Cloud platforms.</p>
+                        <p><strong>Scenario:</strong>A secure cloud backup solution designed for users with limited or unreliable internet. It uses an AI model for Adaptive Sync Scheduling, learning user patterns to perform backups during optimal off-peak hours. It utilizes delta syncing and data deduplication to minimize data transfer </p>
                     </div>
 
                     <div class="challenge-meta">
                         <div class="meta-item">
                             <i class="fas fa-clock"></i>
-                            <span>48 Hours</span>
+                            <span>36 Hours</span>
                         </div>
                         <div class="meta-item">
                             <i class="fas fa-users"></i>
-                            <span>2-4 Members</span>
+                            <span>1 Member</span>
                         </div>
                         <div class="meta-item">
                             <i class="fas fa-trophy"></i>
-                            <span>₹50,000</span>
+                            <span>₹40,000</span>
                         </div>
                     </div>
 
@@ -85,71 +81,107 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Popup Overlay -->
-    <div class="popup-overlay" id="challengePopup">
+         <!-- Challenge Page Container-2 -->
+    <div class="challenge-card-container" onclick="openPopup('challengePopup-2')">
+            <div class="challenge-card">
+                <div class="challenge-card-header">
+                    <h2>CHALLENGE PROBLEM STATEMENT 2</h2>
+                    <div class="difficulty-badge difficulty-medium">INTERMEDIATE LEVEL</div>
+                </div>
+
+                <div class="challenge-card-content">
+                    <h3>The "Campus Brain"</h3>
+                    <div class="challenge-preview">
+                        <p><strong>Scenario:</strong>A centralized, AI-powered knowledge hub for college life. This platform solves the problem of scattered and hard-to-find information by ingesting data from various sources like official websites, student-uploaded notes (from Google Drive), and even informal chat groups. Students can ask questions in natural language (e.g., "When is the tech fest?") and get instant, accurate answers, complete with source links. It also provides a structured way to find peer-sourced advice on topics like professor reviews or project groups.</p>
+                    </div>
+
+                    <div class="challenge-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span>36 Hours</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-users"></i>
+                            <span>1 Member</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-trophy"></i>
+                            <span>₹40,000</span>
+                        </div>
+                    </div>
+
+                    <button class="view-details-btn">
+                        <i class="fas fa-eye"></i> View Full Details
+                    </button>
+                </div>
+            </div>
+        </div>
+    
+
+    <!-- Popup Overlay-1 -->
+    <div class="popup-overlay" id="challengePopup-1">
         <div class="popup-content">
-            <button class="popup-close" onclick="closePopup()">
+            <button class="popup-close" onclick="closePopup('challengePopup-1')">
                 <i class="fas fa-times"></i>
             </button>
 
             <div class="problem-statement-container">
                 <div class="problem-header">
                     <h2>CLOUD COMPUTING CHALLENGE - FULL DETAILS</h2>
-                    <div class="difficulty-badge difficulty-hard">ADVANCED LEVEL</div>
+                    <div class="difficulty-badge difficulty-medium">INTERMEDIATE LEVEL</div>
                 </div>
 
                 <div class="problem-content">
-                    <h3>Multi-Cloud Disaster Recovery Solution</h3>
-                    <p><strong>Scenario:</strong> Design and implement a comprehensive multi-cloud disaster recovery solution for a financial services company that processes 1 million transactions daily across AWS, Azure, and Google Cloud platforms.</p>
+                    <h3>The "Bandwidth-Smart" Cloud Backup</h3>
+                    <p><strong>Scenario:</strong> A secure cloud backup solution designed for users with limited or unreliable internet. It uses an AI model for Adaptive Sync Scheduling, learning user patterns to perform backups during optimal off-peak hours. It utilizes delta syncing and data deduplication to minimize data transfer.</p>
 
                     <div class="requirements">
-                        <h4>Requirements:</h4>
+                        <h4>Key Requirements:</h4>
                         <ul>
-                            <li>Automated failover with RTO < 15 minutes and RPO < 5 minutes</li>
-                            <li>Cross-cloud data synchronization and consistency</li>
-                            <li>Cost optimization across multiple cloud providers</li>
-                            <li>Compliance with financial regulations (PCI DSS, SOX)</li>
-                            <li>Real-time monitoring and alerting system</li>
-                            <li>Automated testing of disaster recovery procedures</li>
+                            <li>A client-side application to monitor user activity, file changes, and network conditions.</li>
+                            <li>An AI model to predict off-peak hours based on historical data</li>
+                            <li>Efficient algorithms for delta syncing (sending only file changes) and deduplication.</li>
+                            <li>A secure and robust cloud storage backend.</li>
                         </ul>
                     </div>
 
-                    <div class="deliverables">
-                        <h4>Deliverables:</h4>
+                    <div class="outcomes">
+                        <h4>Outcomes:</h4>
                         <ul>
-                            <li>Multi-cloud architecture diagram and implementation plan</li>
-                            <li>Automated deployment scripts and Infrastructure as Code</li>
-                            <li>Disaster recovery runbook and testing procedures</li>
-                            <li>Cost analysis and optimization recommendations</li>
-                            <li>Security and compliance assessment report</li>
+                            <li>Reliable and automated backups even on low-bandwidth or intermittent connections.</li>
+                            <li>Minimized impact on the user's internet performance during active hours.</li>
+                            <li>Reduced data usage and potentially lower cloud storage costs.</li>
                         </ul>
                     </div>
 
-                    <div class="evaluation-criteria">
-                        <h4>Evaluation Criteria:</h4>
+                    <div class="conditions">
+                        <h4>Conditions:</h4>
                         <ul>
-                            <li>Architecture design and scalability (30%)</li>
-                            <li>Automation and reliability (25%)</li>
-                            <li>Security and compliance (20%)</li>
-                            <li>Cost optimization (15%)</li>
-                            <li>Innovation and best practices (10%)</li>
+                            <li>The client-side application requires system permissions to monitor files and network.</li>
+                            <li>The predictive model's effectiveness depends on the regularity of the user's schedule and network patterns.</li>
+                        </ul>
+                    </div>
+
+                    <div class="potential datasets">
+                        <h4>Potential Datasets</h4>
+                        <ul>
+                            <li>This system will primarily generate its own operational data. For initial research, public network traffic datasets (e.g., from CAIDA) could be analyzed to understand internet congestion patterns</li>
                         </ul>
                     </div>
 
                     <div class="challenge-info">
                         <div class="info-item">
                             <i class="fas fa-clock"></i>
-                            <span>Duration: 48 Hours</span>
+                            <span>Duration: 36 Hours</span>
                         </div>
                         <div class="info-item">
                             <i class="fas fa-users"></i>
-                            <span>Team Size: 2-4 Members</span>
+                            <span>Team Size: 1 Member</span>
                         </div>
                         <div class="info-item">
                             <i class="fas fa-trophy"></i>
-                            <span>Prize Pool: ₹50,000</span>
+                            <span>Prize Pool: ₹40,000</span>
                         </div>
                     </div>
 
@@ -161,6 +193,85 @@
             </div>
         </div>
     </div>
+    <!-- Popup Overlay-2 -->
+    <div class="popup-overlay" id="challengePopup-2">
+        <div class="popup-content">
+            <button class="popup-close" onclick="closePopup('challengePopup-2')">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <div class="problem-statement-container">
+                <div class="problem-header">
+                    <h2>CLOUD COMPUTING CHALLENGE - FULL DETAILS</h2>
+                    <div class="difficulty-badge difficulty-medium">INTERMEDIATE LEVEL</div>
+                </div>
+
+                <div class="problem-content">
+                    <h3>The "Campus Brain"</h3>
+                    <p><strong>Scenario:</strong>: A centralized, AI-powered knowledge hub for college life. This platform solves the problem of scattered and hard-to-find information by ingesting data from various sources like official websites, student-uploaded notes (from Google Drive), and even informal chat groups. Students can ask questions in natural language (e.g., "When is the tech fest?") and get instant, accurate answers, complete with source links. It also provides a structured way to find peer-sourced advice on topics like professor reviews or project groups.</p>
+
+                    <div class="requirements">
+                        <h4>Key Requirements:</h4>
+                        <ul>
+                            <li>A powerful, natural language search interface (likely using a Retrieval-Augmented Generation - RAG - model).</li>
+                            <li>Data ingestion pipelines to connect to and process data from diverse sources (web scraping for websites, APIs for Google Drive, and methods to import chat histories).</li>
+                            <li>A robust vector database to store and efficiently query the information.</li>
+                            <li>A user-friendly front-end where students can ask questions and browse curated topics.</li>
+                            <li>A verification or rating system for user-submitted content (like notes and advice) to ensure quality.</li>
+                        </ul>
+                    </div>
+
+                    <div class="outcomes">
+                        <h4>Outcomes:</h4>
+                        <ul>
+                            <li>A single, reliable source of truth for all campus-related information.</li>
+                            <li>A significant reduction in the time students spend searching for information.</li>
+                            <li>Preservation of institutional knowledge that is often lost when senior students graduate.</li>
+                            <li>Faster onboarding for new students.</li>
+                        </ul>
+                    </div>
+
+                    <div class="conditions">
+                        <h4>Conditions:</h4>
+                        <ul>
+                            <li>Requires permissions and potentially APIs to access data from different platforms.</li>
+                            <li>Strong user adoption and contribution are key to building a comprehensive knowledge base.</li>
+                            <li>A moderation system is essential to manage the quality and appropriateness of user-submitted content.</li>
+                        </ul>
+                    </div>
+
+                    <div class="potential datasets">
+                        <h4>Potential Datasets</h4>
+                        <ul>
+                            <li>This project's primary dataset will be the one it builds from the college's specific data sources.</li>
+                            <li>The core AI doesn't need to be trained from scratch. You would use pre-trained Large Language Models (LLMs) as the foundation for the search and Q&A functionality. You can find many open-source models on platforms like Hugging Face. </li>
+                        </ul>
+                    </div>
+
+                    <div class="challenge-info">
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Duration: 36 Hours</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-users"></i>
+                            <span>Team Size: 1 Member</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-trophy"></i>
+                            <span>Prize Pool: ₹40,000</span>
+                        </div>
+                    </div>
+
+                    <div class="action-buttons">
+                        <button class="register-btn">Register Now</button>
+                        <button class="download-btn">Download Resources</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
