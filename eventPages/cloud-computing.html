@@ -81,6 +81,7 @@
                 </div>
             </div>
         </div>
+    </div>
 
          <!-- Challenge Page Container-2 -->
     <div class="challenge-card-container" onclick="openPopup('challengePopup-2')">
@@ -117,7 +118,7 @@
                 </div>
             </div>
         </div>
-    
+    </div>
 
     <!-- Popup Overlay-1 -->
     <div class="popup-overlay" id="challengePopup-1">
@@ -280,17 +281,33 @@
 <script src="../js/navbar.js"></script>
 
 <script>
-    function openPopup() {
-        const popup = document.getElementById('challengePopup');
-        popup.classList.add('active');
-        document.body.style.overflow = 'hidden';
-    }
+    // Function to open popup 1
+function openPopup1() {
+    const popup = document.getElementById('challengePopup-1');
+    popup.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
 
-    function closePopup() {
-        const popup = document.getElementById('challengePopup');
-        popup.classList.remove('active');
-        document.body.style.overflow = 'auto';
-    }
+// Function to open popup 2
+function openPopup2() {
+    const popup = document.getElementById('challengePopup-2');
+    popup.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+// Function to close popup 1
+function closePopup1() {
+    const popup = document.getElementById('challengePopup-1');
+    popup.classList.remove('active');
+    document.body.style.overflow = 'auto';
+}
+
+// Function to close popup 2
+function closePopup2() {
+    const popup = document.getElementById('challengePopup-2');
+    popup.classList.remove('active');
+    document.body.style.overflow = 'auto';
+}
 
     // Close popup when clicking outside
     document.getElementById('challengePopup').addEventListener('click', function(e) {
