@@ -1,0 +1,45 @@
+/* Challenge Page Layout */
+.challenge-page-container {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items:center;
+    justify-content: center;
+    animation: pageEnter 1s ease-out;
+    /* border: 2px solid red; */
+}
+.challenge-card-header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.challenge-card-header h2
+{
+    font-size:xx-large;
+    margin-top: 40px;
+}
+.problem-header h2{
+    margin-top: 50px;
+
+}
+
+.challenges-content
+{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    gap: 0px;
+    
+}
+.challenge-title
+{
+    /* border: 2px solid red; */
+    margin-bottom: 0;
+    transform: translateY(120px);
+}

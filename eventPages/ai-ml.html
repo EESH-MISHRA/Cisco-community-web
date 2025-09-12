@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,156 +8,250 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="./link.css">
     <link rel="stylesheet" href="./problem-statement.css">
-    <link rel="stylesheet" href="../css/ai-challenges.css">
+    <link rel="stylesheet" href="../css/ai_challenge.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
-
 <body>
     <div class="navbar-wrapperS">
         <div class="navbars">
             <div class="nav-logo"><img src="/images/logo.png" alt="Logo"></div>
-            <div class="nav-contents">
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/index.html#about-container">About</a></li>
-                <li><a href="/index.html#gallery-cont">Gallery</a></li>
-                <li><a href="/pages/team.html">Team</a></li>
-                <li><a href="/pages/challenges.html" style="color: #9569FC; font-weight: 600;">New Event!</a></li>
-                <li><a href="/index.html#contact-form">Contact Us</a></li>
-            </div>
-            <div class="navham wrapMenu">
-                <div class="menu menu--top-right" id="menu_top_right">
-                    <a class="menu__btn" dd-nav-expand="menu_top_right"><i class="fa fa-bars"></i></a>
-                    <ul class="menu__list">
+                <div class="nav-contents">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/index.html#about-container">About</a></li>
+                    <li><a href="/index.html#gallery-cont">Gallery</a></li>
+                    <li><a href="/pages/team.html">Team</a></li>
+                    <li><a href="/pages/challenges.html" style="color: #9569FC; font-weight: 600;">New Event!</a></li>
+                    <li><a href="/index.html#contact-form">Contact Us</a></li>
+                </div>
+                <div class="navham wrapMenu">
+                    <div class="menu menu--top-right" id="menu_top_right">
+                      <a class="menu__btn" dd-nav-expand="menu_top_right"><i class="fa fa-bars"></i></a>
+                      <ul class="menu__list">
                         <li><a href="/index.html">Home</a></li>
                         <li><a href="/index.html#about-container">About</a></li>
                         <li><a href="/index.html#gallery-cont">Gallery</a></li>
                         <li><a href="/pages/team.html">Team</a></li>
-                        <li><a href="/pages/challenges.html" style="color: #9569FC; font-weight: 600;">New Event!</a>
-                        </li>
+                        <li><a href="/pages/challenges.html">New Event!</a></li>
                         <li><a href="/index.html#contact-form">Contact</a></li>
                         <li><a href="#">Blog</a></li>
-                    </ul>
+                      </ul>
+                    </div>
+                  </div>
+                <div class="nav-button">
+                    <a href="" class="nav-button">Blogs <i class="bi bi-caret-right-fill"></i></a>
                 </div>
-            </div>
-            <div class="nav-button">
-                <a href="" class="nav-button">Blogs <i class="bi bi-caret-right-fill"></i></a>
-            </div>
         </div>
     </div>
-
-    <!-- Challenge Page Container -->
-    <!-- <div class="challenge-page-container">
+    <div class="challenges-content">
+        <!-- Challenge Page Heading -->
         <div class="challenge-title">
-            <h1>AI & ML CHALLENGE</h1>
+            <h1>AI & ML CHALLENGES</h1>
         </div>
-
-        <div class="challenge-card-container" onclick="openPopup()">
-            <div class="challenge-card">
-                <div class="challenge-card-header">
-                    <h2>CHALLENGE PROBLEM STATEMENT</h2>
-                    <div class="difficulty-badge difficulty-hard">ADVANCED LEVEL</div>
+    </div>
+        
+        <!-- Challenge Page Container-1 -->
+        <div class="challenge-page-container">
+            <div class="challenge-card-container" onclick="openPopup('challengePopup-1')">
+                <div class="challenge-card">
+                    <div class="challenge-card-header">
+                        <h2>CHALLENGE PROBLEM STATEMENT 1</h2>
+                            <div class="difficulty-badge difficulty-medium">INTERMEDIATE LEVEL</div>
+                    </div>
+                    
+                    <div class="challenge-card-content">
+                        <h3>The "FractureNet" X-Ray Assistant</h3>
+                        <!-- <div class="challenge-preview">
+                            <p><strong>Scenario:</strong> Create an intelligent home automation system that uses AI & ML sensors, machine learning, and predictive analytics to optimize energy consumption, enhance security, and improve resident comfort.</p>
+                        </div> -->
+                        
+                        <div class="challenge-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-clock"></i>
+                                <span>36 Hours</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-users"></i>
+                                <span>1 Member</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-trophy"></i>
+                                <span>₹40,000</span>
+                            </div>
+                        </div>
+                        
+                        <button class="view-details-btn">
+                            <i class="fas fa-eye"></i> View Full Details
+                        </button>
+                    </div>
                 </div>
-
-                <div class="challenge-card-content">
-                    <h3>AI-Powered Healthcare Diagnostic System</h3>
-                    <div class="challenge-preview">
-                        <p><strong>Scenario:</strong> Build an AI-powered healthcare diagnostic system with real-time
-                            patient monitoring capabilities that can predict health risks, assist in diagnosis, and
-                            provide personalized treatment recommendations.</p>
+            </div>
+            <!-- Challenge Page Container-2 -->
+            <div class="challenge-card-container" onclick="openPopup('challengePopup-2')">
+                <div class="challenge-card">
+                    <div class="challenge-card-header">
+                        <h2>CHALLENGE PROBLEM STATEMENT 2</h2>
+                            <div class="difficulty-badge difficulty-medium">INTERMEDIATE LEVEL</div>
                     </div>
-
-                    <div class="challenge-meta">
-                        <div class="meta-item">
-                            <i class="fas fa-clock"></i>
-                            <span>48 Hours</span>
+                    
+                    <div class="challenge-card-content">
+                        <h3>The "Vision Check AI"</h3>
+                        <div class="challenge-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-clock"></i>
+                                <span>36 Hours</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-users"></i>
+                                <span>1 Member</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-trophy"></i>
+                                <span>₹40,000</span>
+                            </div>
                         </div>
-                        <div class="meta-item">
-                            <i class="fas fa-users"></i>
-                            <span>3-5 Members</span>
-                        </div>
-                        <div class="meta-item">
-                            <i class="fas fa-trophy"></i>
-                            <span>₹70,000</span>
-                        </div>
+                        
+                        <button class="view-details-btn">
+                            <i class="fas fa-eye"></i> View Full Details
+                        </button>
                     </div>
-
-                    <button class="view-details-btn">
-                        <i class="fas fa-eye"></i> View Full Details
-                    </button>
+                </div>
+            </div>
+            <!-- Challenge Page Container-3 -->
+            <div class="challenge-card-container" onclick="openPopup('challengePopup-3')">
+                <div class="challenge-card">
+                    <div class="challenge-card-header">
+                        <h2>CHALLENGE PROBLEM STATEMENT 3</h2>
+                            <div class="difficulty-badge difficulty-medium">INTERMEDIATE LEVEL</div>
+                    </div>
+                    
+                    <div class="challenge-card-content">
+                        <h3>The "Smart Study Hub"</h3>
+                        <div class="challenge-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-clock"></i>
+                                <span>36 Hours</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-users"></i>
+                                <span>1 Member</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-trophy"></i>
+                                <span>₹40,000</span>
+                            </div>
+                        </div>
+                        
+                        <button class="view-details-btn">
+                            <i class="fas fa-eye"></i> View Full Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Challenge Page Container-4 -->
+            <div class="challenge-card-container" onclick="openPopup('challengePopup-4')">
+                <div class="challenge-card">
+                    <div class="challenge-card-header">
+                        <h2>CHALLENGE PROBLEM STATEMENT 4</h2>
+                        <div class="difficulty-badge difficulty-medium">INTERMEDIATE LEVEL</div>
+                    </div>
+                    
+                    <div class="challenge-card-content">
+                        <h3>The "Campus Hive" (P2P Doubt Solver 2.0)</h3>
+                        <!-- <div class="challenge-preview">
+                            <p><strong>Scenario:</strong> Create an intelligent home automation system that uses AI & ML sensors, machine learning, and predictive analytics to optimize energy consumption, enhance security, and improve resident comfort.</p>
+                        </div> -->
+                        
+                        <div class="challenge-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-clock"></i>
+                                <span>36 Hours</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-users"></i>
+                                <span>1 Member</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-trophy"></i>
+                                <span>₹40,000</span>
+                            </div>
+                        </div>
+                        
+                        <button class="view-details-btn">
+                            <i class="fas fa-eye"></i> View Full Details
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div> -->
 
-    <!-- Popup Overlay -->
-    <!-- <div class="popup-overlay" id="challengePopup">
+    <!-- Popup Overlay -1 -->
+    <div class="popup-overlay" id="challengePopup-1">
         <div class="popup-content">
-            <button class="popup-close" onclick="closePopup()">
+            <button class="popup-close" onclick="closePopup('challengePopup-1')">
                 <i class="fas fa-times"></i>
             </button>
 
             <div class="problem-statement-container">
                 <div class="problem-header">
                     <h2>AI & ML CHALLENGE - FULL DETAILS</h2>
-                    <div class="difficulty-badge difficulty-hard">ADVANCED LEVEL</div>
+                    <div class="difficulty-badge difficulty-medium">INTERMEDIATE LEVEL</div>
                 </div>
 
                 <div class="problem-content">
-                    <h3>AI-Powered Healthcare Diagnostic System</h3>
-                    <p><strong>Scenario:</strong> Build an AI-powered healthcare diagnostic system with real-time
-                        patient monitoring capabilities that can predict health risks, assist in diagnosis, and provide
-                        personalized treatment recommendations.</p>
+                    <h3>The "FractureNet" X-Ray Assistant</h3>
+                    <p><strong>Description:</strong>A deep learning application designed to assist medical professionals by rapidly analyzing X-ray images for bone fractures. 
+                        The tool generates a visual heatmap to pinpoint the fracture location, suggests the fracture type, and provides a confidence score.</p>
 
                     <div class="requirements">
                         <h4>Requirements:</h4>
                         <ul>
-                            <li>Multi-modal AI system (image, text, sensor data analysis)</li>
-                            <li>Real-time patient monitoring with wearable device integration</li>
-                            <li>Predictive analytics for early disease detection</li>
-                            <li>Natural language processing for medical record analysis</li>
-                            <li>HIPAA compliance and data privacy protection</li>
-                            <li>Explainable AI for medical decision transparency</li>
+                            <li>A Convolutional Neural Network (CNN) model trained on a large dataset of X-ray images.</li>
+                            <li>Functionality to generate heatmaps (using techniques like Grad-CAM) to visualize areas of interest.</li>
+                            <li>A user interface for doctors to upload X-ray images and view the analysis.</li>
+                            <li>The model should be able to classify different types of fractures.</li>
                         </ul>
                     </div>
 
                     <div class="deliverables">
-                        <h4>Deliverables:</h4>
+                        <h4>Outcomes:</h4>
                         <ul>
-                            <li>AI model architecture and training pipeline</li>
-                            <li>Real-time monitoring dashboard for healthcare providers</li>
-                            <li>Patient mobile application with AI recommendations</li>
-                            <li>Model performance evaluation and validation report</li>
-                            <li>Privacy and security implementation documentation</li>
+                            <li>Reduced time for fracture diagnosis in emergency situations.</li>
+                            <li>Increased accuracy and a reduction in diagnostic errors.</li>
+                            <li>An effective tool for prioritizing critical cases in a busy clinical setting.</li>
                         </ul>
                     </div>
 
                     <div class="evaluation-criteria">
-                        <h4>Evaluation Criteria:</h4>
+                        <h4>Conditions:</h4>
                         <ul>
-                            <li>AI model accuracy and performance (35%)</li>
-                            <li>Real-time processing capabilities (25%)</li>
-                            <li>Healthcare domain expertise (20%)</li>
-                            <li>Privacy and security implementation (15%)</li>
-                            <li>User interface and clinical workflow (5%)</li>
+                            <li>Access to a large, well-labeled dataset of medical images is critical and often difficult to obtain.</li>
+                            <li>The system must comply with medical data privacy regulations (e.g., HIPAA).</li>
+                            <li>The final tool must be validated by certified radiologists before any clinical use. This tool is an assistant, not a replacement for a doctor.</li>
                         </ul>
                     </div>
+                    <div class="evaluation-criteria">
+                        <h4>Potential Datasets:</h4>
+                        <ul>
+                            <li>MURA (Musculoskeletal Radiographs) Dataset: A large dataset of bone X-rays from Stanford University.&nbsp;<a href="https://stanfordmlgroup.github.io/competitions/mura/">Link to MURA Dataset</a></li>
+                            <li>ChestX-ray8: While focused on chests, it is a good example of a large-scale medical imaging dataset.&nbsp;<a href="https://cloud.google.com/healthcare-api/docs/resources/public-datasets/nih-chest">Link on NIH Website</a></li>
+                        </ul>
+                        </div>
 
                     <div class="challenge-info">
                         <div class="info-item">
                             <i class="fas fa-clock"></i>
-                            <span>Duration: 48 Hours</span>
+                            <span>Duration: 36 Hours</span>
                         </div>
                         <div class="info-item">
                             <i class="fas fa-users"></i>
-                            <span>Team Size: 3-5 Members</span>
+                            <span>Team Size: 1 Member</span>
                         </div>
                         <div class="info-item">
                             <i class="fas fa-trophy"></i>
-                            <span>Prize Pool: ₹70,000</span>
+                            <span>Prize Pool: ₹40,000</span>
                         </div>
                     </div>
 
@@ -169,728 +262,275 @@
                 </div>
             </div>
         </div>
-    </div> -->
-
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
-        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
-        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="../js/navbar.js"></script>
-
-    <script>
-        function openPopup() {
-            const popup = document.getElementById('challengePopup');
-            popup.classList.add('active');
-            document.body.style.overflow = 'hidden';
-        }
-
-        function closePopup() {
-            const popup = document.getElementById('challengePopup');
-            popup.classList.remove('active');
-            document.body.style.overflow = 'auto';
-        }
-
-        // Close popup when clicking outside
-        document.getElementById('challengePopup').addEventListener('click', function (e) {
-            if (e.target === this) {
-                closePopup();
-            }
-        });
-
-        // Close popup with Escape key
-        document.addEventListener('keydown', function (e) {
-            if (e.key === 'Escape') {
-                closePopup();
-            }
-        });
-
-        // Add scroll reveal animations
-        if (typeof ScrollReveal !== 'undefined') {
-            ScrollReveal({
-                reset: true,
-                distance: '100px',
-                duration: 2000,
-                delay: 0
-            });
-
-            ScrollReveal().reveal('.challenge-title', { delay: 0, origin: 'top' });
-            ScrollReveal().reveal('.challenge-card-container', { delay: 300, origin: 'bottom' });
-        }
-    </script>
-</body>
-
-</html> -->
-
-    <!-- Challenge Page Container -->
-    <div class="challenge-page-container">
-        <div class="challenge-page-header">
-            <h1>AI & ML CHALLENGES</h1>
-        </div>
-
-        <div class="challenge-page-grid">
-
-            <!-- Healthcare Diagnostic System -->
-            <div class="challenge-card-container" onclick="openPopup('challenge1')">
-                <div class="challenge-card">
-                    <div class="challenge-card-header">
-                        <h2>CHALLENGE PROBLEM STATEMENT</h2>
-                        <div class="difficulty-badge difficulty-hard">ADVANCED LEVEL</div>
-                    </div>
-
-                    <div class="challenge-card-content">
-                        <h3>AI-Powered Healthcare Diagnostic System</h3>
-                        <div class="challenge-preview">
-                            <p><strong>Scenario:</strong> Build an AI-powered healthcare diagnostic system with
-                                real-time
-                                patient monitoring capabilities that can predict health risks, assist in diagnosis, and
-                                provide personalized treatment recommendations.</p>
-                        </div>
-
-                        <div class="challenge-meta">
-                            <div class="meta-item">
-                                <i class="fas fa-clock"></i>
-                                <span>48 Hours</span>
-                            </div>
-                            <div class="meta-item">
-                                <i class="fas fa-users"></i>
-                                <span>3-5 Members</span>
-                            </div>
-                            <div class="meta-item">
-                                <i class="fas fa-trophy"></i>
-                                <span>₹70,000</span>
-                            </div>
-                        </div>
-
-                        <button class="view-details-btn">
-                            <i class="fas fa-eye"></i> View Full Details
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- FractureNet Challenge -->
-            <div class="challenge-card-container" onclick="openPopup('fractureNet')">
-                <div class="challenge-card">
-                    <div class="challenge-card-header">
-                        <h2>FRACTURENET X-RAY ASSISTANT</h2>
-                        <div class="difficulty-badge difficulty-hard">ADVANCED LEVEL</div>
-                    </div>
-
-                    <div class="challenge-card-content">
-                        <h3>AI-Powered Medical X-Ray Fracture Detection</h3>
-                        <div class="challenge-preview">
-                            <p><strong>Scenario:</strong> Build a deep learning application to assist medical
-                                professionals
-                                by
-                                rapidly analyzing X-ray images for bone fractures with visual heatmaps and confidence
-                                scoring.
-                            </p>
-                        </div>
-
-                        <div class="challenge-meta">
-                            <div class="meta-item">
-                                <i class="fas fa-clock"></i>
-                                <span>48 Hours</span>
-                            </div>
-                            <div class="meta-item">
-                                <i class="fas fa-users"></i>
-                                <span>3-5 Members</span>
-                            </div>
-                            <div class="meta-item">
-                                <i class="fas fa-trophy"></i>
-                                <span>₹70,000</span>
-                            </div>
-                        </div>
-
-                        <button class="view-details-btn">
-                            <i class="fas fa-eye"></i> View Full Details
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Vision Check AI Challenge -->
-            <div class="challenge-card-container" onclick="openPopup('visionCheck')">
-                <div class="challenge-card">
-                    <div class="challenge-card-header">
-                        <h2>VISION CHECK AI</h2>
-                        <div class="difficulty-badge difficulty-medium">INTERMEDIATE LEVEL</div>
-                    </div>
-
-                    <div class="challenge-card-content">
-                        <h3>Accessible Vision Screening Tool</h3>
-                        <div class="challenge-preview">
-                            <p><strong>Scenario:</strong> Create an accessible vision screening tool using computer
-                                vision
-                                that
-                                guides users through eye tests using their device's camera with real-time processing.
-                            </p>
-                        </div>
-
-                        <div class="challenge-meta">
-                            <div class="meta-item">
-                                <i class="fas fa-clock"></i>
-                                <span>36 Hours</span>
-                            </div>
-                            <div class="meta-item">
-                                <i class="fas fa-users"></i>
-                                <span>2-4 Members</span>
-                            </div>
-                            <div class="meta-item">
-                                <i class="fas fa-trophy"></i>
-                                <span>₹50,000</span>
-                            </div>
-                        </div>
-
-                        <button class="view-details-btn">
-                            <i class="fas fa-eye"></i> View Full Details
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Smart Study Hub Challenge -->
-            <div class="challenge-card-container" onclick="openPopup('smartStudy')">
-                <div class="challenge-card">
-                    <div class="challenge-card-header">
-                        <h2>SMART STUDY HUB</h2>
-                        <div class="difficulty-badge difficulty-medium">INTERMEDIATE LEVEL</div>
-                    </div>
-
-                    <div class="challenge-card-content">
-                        <h3>AI-Powered Personalized Study Planner</h3>
-                        <div class="challenge-preview">
-                            <p><strong>Scenario:</strong> Build a dynamic study planner that creates personalized
-                                schedules,
-                                summarizes notes automatically, and adapts based on user performance and learning
-                                patterns.
-                            </p>
-                        </div>
-
-                        <div class="challenge-meta">
-                            <div class="meta-item">
-                                <i class="fas fa-clock"></i>
-                                <span>40 Hours</span>
-                            </div>
-                            <div class="meta-item">
-                                <i class="fas fa-users"></i>
-                                <span>3-4 Members</span>
-                            </div>
-                            <div class="meta-item">
-                                <i class="fas fa-trophy"></i>
-                                <span>₹60,000</span>
-                            </div>
-                        </div>
-
-                        <button class="view-details-btn">
-                            <i class="fas fa-eye"></i> View Full Details
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Campus Hive Challenge -->
-            <div class="challenge-card-container" onclick="openPopup('campusHive')">
-                <div class="challenge-card">
-                    <div class="challenge-card-header">
-                        <h2>CAMPUS HIVE - P2P DOUBT SOLVER 2.0</h2>
-                        <div class="difficulty-badge difficulty-hard">ADVANCED LEVEL</div>
-                    </div>
-
-                    <div class="challenge-card-content">
-                        <h3>AI-Enhanced Peer-to-Peer Learning Platform</h3>
-                        <div class="challenge-preview">
-                            <p><strong>Scenario:</strong> Create a peer-to-peer doubt-solving platform with AI routing,
-                                instant
-                                draft answers using GenAI, and expertise-based reputation systems.</p>
-                        </div>
-
-                        <div class="challenge-meta">
-                            <div class="meta-item">
-                                <i class="fas fa-clock"></i>
-                                <span>48 Hours</span>
-                            </div>
-                            <div class="meta-item">
-                                <i class="fas fa-users"></i>
-                                <span>4-6 Members</span>
-                            </div>
-                            <div class="meta-item">
-                                <i class="fas fa-trophy"></i>
-                                <span>₹80,000</span>
-                            </div>
-                        </div>
-
-                        <button class="view-details-btn">
-                            <i class="fas fa-eye"></i> View Full Details
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Healthcare Diagnostic System Popup -->
-        <div class="popup-overlay" id="challenge1Popup">
-            <div class="popup-content">
-                <button class="popup-close" onclick="closePopup('challenge1')">
-                    <i class="fas fa-times"></i>
-                </button>
-
-                <div class="problem-statement-container">
-                    <div class="problem-header">
-                        <h2>Healthcare Diagnostic System - FULL DETAILS</h2>
-                        <div class="difficulty-badge difficulty-hard">ADVANCED LEVEL</div>
-                    </div>
-
-                    <div class="problem-content">
-                        <h3>AI-Powered Healthcare Diagnostic System</h3>
-                        <p><strong>Scenario:</strong> Build an AI-powered healthcare diagnostic system with real-time
-                            patient monitoring capabilities that can predict health risks, assist in diagnosis, and
-                            provide
-                            personalized treatment recommendations.</p>
-
-                        <div class="requirements">
-                            <h4>Requirements:</h4>
-                            <ul>
-                                <li>Multi-modal AI system (image, text, sensor data analysis)</li>
-                                <li>Real-time patient monitoring with wearable device integration</li>
-                                <li>Predictive analytics for early disease detection</li>
-                                <li>Natural language processing for medical record analysis</li>
-                                <li>HIPAA compliance and data privacy protection</li>
-                                <li>Explainable AI for medical decision transparency</li>
-                            </ul>
-                        </div>
-
-                        <div class="deliverables">
-                            <h4>Deliverables:</h4>
-                            <ul>
-                                <li>AI model architecture and training pipeline</li>
-                                <li>Real-time monitoring dashboard for healthcare providers</li>
-                                <li>Patient mobile application with AI recommendations</li>
-                                <li>Model performance evaluation and validation report</li>
-                                <li>Privacy and security implementation documentation</li>
-                            </ul>
-                        </div>
-
-                        <div class="evaluation-criteria">
-                            <h4>Evaluation Criteria:</h4>
-                            <ul>
-                                <li>AI model accuracy and performance (35%)</li>
-                                <li>Real-time processing capabilities (25%)</li>
-                                <li>Healthcare domain expertise (20%)</li>
-                                <li>Privacy and security implementation (15%)</li>
-                                <li>User interface and clinical workflow (5%)</li>
-                            </ul>
-                        </div>
-
-                        <div class="challenge-info">
-                            <div class="info-item">
-                                <i class="fas fa-clock"></i>
-                                <span>Duration: 48 Hours</span>
-                            </div>
-                            <div class="info-item">
-                                <i class="fas fa-users"></i>
-                                <span>Team Size: 3-5 Members</span>
-                            </div>
-                            <div class="info-item">
-                                <i class="fas fa-trophy"></i>
-                                <span>Prize Pool: ₹70,000</span>
-                            </div>
-                        </div>
-
-                        <div class="action-buttons">
-                            <button class="register-btn">Register Now</button>
-                            <button class="download-btn">Download Resources</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- FractureNet Popup -->
-        <div class="popup-overlay" id="fractureNetPopup">
-            <div class="popup-content">
-                <button class="popup-close" onclick="closePopup('fractureNet')">
-                    <i class="fas fa-times"></i>
-                </button>
-
-                <div class="problem-statement-container">
-                    <div class="problem-header">
-                        <h2>FRACTURENET X-RAY ASSISTANT - FULL DETAILS</h2>
-                        <div class="difficulty-badge difficulty-hard">ADVANCED LEVEL</div>
-                    </div>
-
-                    <div class="problem-content">
-                        <h3>AI-Powered Medical X-Ray Fracture Detection</h3>
-                        <p><strong>Description:</strong> A deep learning application designed to assist medical
-                            professionals by
-                            rapidly analyzing X-ray images for bone fractures. This tool helps reduce diagnostic errors
-                            and
-                            prioritize cases in busy emergency rooms.</p>
-
-                        <div class="requirements">
-                            <h4>Key AI Features Required:</h4>
-                            <ul>
-                                <li>Deep learning model for X-ray image analysis and fracture detection</li>
-                                <li>Visual heatmap generation to pinpoint exact fracture locations</li>
-                                <li>Fracture type classification and suggestion system</li>
-                                <li>Confidence score calculation for diagnostic assistance</li>
-                                <li>Real-time image processing and analysis pipeline</li>
-                                <li>Medical data privacy and security compliance</li>
-                            </ul>
-                        </div>
-
-                        <div class="deliverables">
-                            <h4>Deliverables:</h4>
-                            <ul>
-                                <li>Trained deep learning model for fracture detection</li>
-                                <li>Web/mobile interface for X-ray image upload and analysis</li>
-                                <li>Heatmap visualization system for fracture localization</li>
-                                <li>Confidence scoring and reporting dashboard</li>
-                                <li>Model performance evaluation and validation report</li>
-                                <li>Medical professional workflow integration documentation</li>
-                            </ul>
-                        </div>
-
-                        <div class="evaluation-criteria">
-                            <h4>Evaluation Criteria:</h4>
-                            <ul>
-                                <li>Model accuracy and fracture detection performance (40%)</li>
-                                <li>Heatmap visualization quality and precision (25%)</li>
-                                <li>User interface and medical workflow integration (20%)</li>
-                                <li>Real-time processing capabilities (10%)</li>
-                                <li>Innovation and additional features (5%)</li>
-                            </ul>
-                        </div>
-
-                        <div class="challenge-info">
-                            <div class="info-item">
-                                <i class="fas fa-clock"></i>
-                                <span>Duration: 48 Hours</span>
-                            </div>
-                            <div class="info-item">
-                                <i class="fas fa-users"></i>
-                                <span>Team Size: 3-5 Members</span>
-                            </div>
-                            <div class="info-item">
-                                <i class="fas fa-trophy"></i>
-                                <span>Prize Pool: ₹70,000</span>
-                            </div>
-                        </div>
-
-                        <div class="action-buttons">
-                            <button class="register-btn">Register Now</button>
-                            <button class="download-btn">Download Dataset</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Vision Check AI Popup -->
-        <div class="popup-overlay" id="visionCheckPopup">
-            <div class="popup-content">
-                <button class="popup-close" onclick="closePopup('visionCheck')">
-                    <i class="fas fa-times"></i>
-                </button>
-
-                <div class="problem-statement-container">
-                    <div class="problem-header">
-                        <h2>VISION CHECK AI - FULL DETAILS</h2>
-                        <div class="difficulty-badge difficulty-medium">INTERMEDIATE LEVEL</div>
-                    </div>
-
-                    <div class="problem-content">
-                        <h3>Accessible Vision Screening Tool</h3>
-                        <p><strong>Description:</strong> An accessible and accurate vision screening tool that uses a
-                            device's
-                            camera and computer vision. The application guides users through standard eye tests
-                            presented on
-                            their screen, making basic eye testing available to anyone with a smartphone or webcam.</p>
-
-                        <div class="requirements">
-                            <h4>Key Features Required:</h4>
-                            <ul>
-                                <li>Computer vision system for real-time head position tracking</li>
-                                <li>Digital Snellen chart implementation with dynamic sizing</li>
-                                <li>Voice and text response analysis for visual acuity determination</li>
-                                <li>Camera-based eye tracking and gaze detection</li>
-                                <li>Responsive web/mobile interface for various devices</li>
-                                <li>Results reporting and preliminary screening analytics</li>
-                            </ul>
-                        </div>
-
-                        <div class="deliverables">
-                            <h4>Deliverables:</h4>
-                            <ul>
-                                <li>Computer vision model for head and eye tracking</li>
-                                <li>Interactive digital eye chart system</li>
-                                <li>Real-time video processing pipeline</li>
-                                <li>User-friendly testing interface with voice guidance</li>
-                                <li>Visual acuity calculation and reporting system</li>
-                                <li>Cross-platform compatibility documentation</li>
-                            </ul>
-                        </div>
-
-                        <div class="evaluation-criteria">
-                            <h4>Evaluation Criteria:</h4>
-                            <ul>
-                                <li>Computer vision accuracy and tracking performance (35%)</li>
-                                <li>User experience and interface design (25%)</li>
-                                <li>Visual acuity calculation accuracy (20%)</li>
-                                <li>Real-time processing and responsiveness (15%)</li>
-                                <li>Accessibility and device compatibility (5%)</li>
-                            </ul>
-                        </div>
-
-                        <div class="challenge-info">
-                            <div class="info-item">
-                                <i class="fas fa-clock"></i>
-                                <span>Duration: 36 Hours</span>
-                            </div>
-                            <div class="info-item">
-                                <i class="fas fa-users"></i>
-                                <span>Team Size: 2-4 Members</span>
-                            </div>
-                            <div class="info-item">
-                                <i class="fas fa-trophy"></i>
-                                <span>Prize Pool: ₹50,000</span>
-                            </div>
-                        </div>
-
-                        <div class="action-buttons">
-                            <button class="register-btn">Register Now</button>
-                            <button class="download-btn">Download Resources</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Smart Study Hub Popup -->
-        <div class="popup-overlay" id="smartStudyPopup">
-            <div class="popup-content">
-                <button class="popup-close" onclick="closePopup('smartStudy')">
-                    <i class="fas fa-times"></i>
-                </button>
-
-                <div class="problem-statement-container">
-                    <div class="problem-header">
-                        <h2>SMART STUDY HUB - FULL DETAILS</h2>
-                        <div class="difficulty-badge difficulty-medium">INTERMEDIATE LEVEL</div>
-                    </div>
-
-                    <div class="problem-content">
-                        <h3>AI-Powered Personalized Study Planner</h3>
-                        <p><strong>Description:</strong> A dynamic study planner that goes beyond simple calendars to
-                            solve
-                            the
-                            problem of managing scattered notes and inefficient study habits. This tool uses AI to
-                            create
-                            personalized study schedules and adapt based on user performance.</p>
-
-                        <div class="requirements">
-                            <h4>Key AI Features Required:</h4>
-                            <ul>
-                                <li>AI-powered personalized study schedule generation</li>
-                                <li>Automated note summarizer for PDFs and images using NLP</li>
-                                <li>Intelligent flashcard generation from uploaded content</li>
-                                <li>Adaptive learning system based on user confidence levels</li>
-                                <li>Performance tracking and difficulty assessment</li>
-                                <li>Smart revision time allocation and optimization</li>
-                            </ul>
-                        </div>
-
-                        <div class="deliverables">
-                            <h4>Deliverables:</h4>
-                            <ul>
-                                <li>AI-powered study scheduling algorithm</li>
-                                <li>Note processing and summarization system</li>
-                                <li>Automated flashcard generation engine</li>
-                                <li>User performance tracking dashboard</li>
-                                <li>Mobile and web application interface</li>
-                                <li>Adaptive learning algorithm documentation</li>
-                            </ul>
-                        </div>
-
-                        <div class="evaluation-criteria">
-                            <h4>Evaluation Criteria:</h4>
-                            <ul>
-                                <li>AI personalization and adaptation quality (30%)</li>
-                                <li>Note processing and summarization accuracy (25%)</li>
-                                <li>User interface and experience design (20%)</li>
-                                <li>Schedule optimization effectiveness (15%)</li>
-                                <li>Innovation and additional features (10%)</li>
-                            </ul>
-                        </div>
-
-                        <div class="challenge-info">
-                            <div class="info-item">
-                                <i class="fas fa-clock"></i>
-                                <span>Duration: 40 Hours</span>
-                            </div>
-                            <div class="info-item">
-                                <i class="fas fa-users"></i>
-                                <span>Team Size: 3-4 Members</span>
-                            </div>
-                            <div class="info-item">
-                                <i class="fas fa-trophy"></i>
-                                <span>Prize Pool: ₹60,000</span>
-                            </div>
-                        </div>
-
-                        <div class="action-buttons">
-                            <button class="register-btn">Register Now</button>
-                            <button class="download-btn">Download Resources</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Campus Hive Popup -->
-        <div class="popup-overlay" id="campusHivePopup">
-            <div class="popup-content">
-                <button class="popup-close" onclick="closePopup('campusHive')">
-                    <i class="fas fa-times"></i>
-                </button>
-
-                <div class="problem-statement-container">
-                    <div class="problem-header">
-                        <h2>CAMPUS HIVE - P2P DOUBT SOLVER 2.0 - FULL DETAILS</h2>
-                        <div class="difficulty-badge difficulty-hard">ADVANCED LEVEL</div>
-                    </div>
-
-                    <div class="problem-content">
-                        <h3>AI-Enhanced Peer-to-Peer Learning Platform</h3>
-                        <p><strong>Description:</strong> A peer-to-peer doubt-solving platform supercharged with AI to
-                            address
-                            the difficulty of getting fast, verified answers. The platform routes questions to qualified
-                            students and provides instant AI-generated draft answers.</p>
-
-                        <div class="requirements">
-                            <h4>Key AI Features Required:</h4>
-                            <ul>
-                                <li>AI-powered question routing system based on skill profiles</li>
-                                <li>GenAI model for instant "first-draft" answer generation</li>
-                                <li>Intelligent reputation and expertise ranking system</li>
-                                <li>Natural language processing for question categorization</li>
-                                <li>Machine learning-based user skill assessment</li>
-                                <li>Real-time matching algorithm for optimal peer connections</li>
-                            </ul>
-                        </div>
-
-                        <div class="deliverables">
-                            <h4>Deliverables:</h4>
-                            <ul>
-                                <li>AI question routing and matching system</li>
-                                <li>GenAI integration for instant answer generation</li>
-                                <li>Reputation and skill profiling algorithm</li>
-                                <li>Peer-to-peer platform with real-time messaging</li>
-                                <li>Leaderboard and gamification system</li>
-                                <li>Performance analytics and recommendation engine</li>
-                            </ul>
-                        </div>
-
-                        <div class="evaluation-criteria">
-                            <h4>Evaluation Criteria:</h4>
-                            <ul>
-                                <li>AI routing accuracy and efficiency (30%)</li>
-                                <li>GenAI integration and answer quality (25%)</li>
-                                <li>Platform functionality and user experience (20%)</li>
-                                <li>Reputation system effectiveness (15%)</li>
-                                <li>Scalability and technical implementation (10%)</li>
-                            </ul>
-                        </div>
-
-                        <div class="challenge-info">
-                            <div class="info-item">
-                                <i class="fas fa-clock"></i>
-                                <span>Duration: 48 Hours</span>
-                            </div>
-                            <div class="info-item">
-                                <i class="fas fa-users"></i>
-                                <span>Team Size: 4-6 Members</span>
-                            </div>
-                            <div class="info-item">
-                                <i class="fas fa-trophy"></i>
-                                <span>Prize Pool: ₹80,000</span>
-                            </div>
-                        </div>
-
-                        <div class="action-buttons">
-                            <button class="register-btn">Register Now</button>
-                            <button class="download-btn">Download Resources</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
-        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
-        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="../js/navbar.js"></script>
+    <!-- Popup Overlay -2 -->
+    <div class="popup-overlay" id="challengePopup-2">
+    <div class="popup-content">
+        <button class="popup-close" onclick="closePopup('challengePopup-2')">
+            <i class="fas fa-times"></i>
+        </button>
 
-    <script>
-        function openPopup(challengeId) {
-            const popup = document.getElementById(challengeId + 'Popup');
+        <div class="problem-statement-container">
+            <div class="problem-header">
+                <h2>AI & ML CHALLENGE - FULL DETAILS</h2>
+                <div class="difficulty-badge difficulty-medium">INTERMEDIATE LEVEL</div>
+            </div>
+
+            <div class="problem-content">
+                <h3>The "Vision Check AI"</h3>
+                <p><strong>Description:</strong> An accessible and accurate vision screening tool that uses a device's camera and computer vision. The application guides a user through a standard eye test (like a digital Snellen chart) presented on their screen. The system uses real-time video processing to track the user's head position and analyze their verbal or typed responses to determine their visual acuity.</p>
+
+                <div class="requirements">
+                    <h4>Key Requirements:</h4>
+                    <ul>
+                        <li>A computer vision model for real-time head and eye tracking to ensure the user is at a consistent distance.</li>
+                        <li>A calibrated UI for displaying a digital Snellen chart or equivalent vision test.</li>
+                        <li>An algorithm to process user input (speech-to-text for verbal responses or keyboard input).</li>
+                        <li>A procedure to guide the user in measuring their distance from the screen for accuracy.</li>
+                    </ul>
+                </div>
+
+                <div class="deliverables">
+                    <h4>Outcomes:</h4>
+                    <ul>
+                        <li>Provides a preliminary, non-diagnostic estimate of visual acuity.</li>
+                        <li>Increases accessibility to basic vision screening for individuals in remote areas.</li>
+                        <li>A clear report that advises the user to seek a professional examination for a formal diagnosis.</li>
+                    </ul>
+                </div>
+
+                <div class="evaluation-criteria">
+                    <h4>Conditions:</h4>
+                    <ul>
+                        <li>The accuracy is highly dependent on environmental factors like screen resolution, ambient lighting, and correct user distance.</li>
+                        <li>The application must explicitly state it is a screening tool and not a substitute for a professional eye exam.</li>
+                    </ul>
+                </div>
+                <div class="evaluation-criteria">
+                    <h4>Potential Datasets:</h4>
+                    <li>GazeCapture: An alternative large-scale dataset for gaze estimation, collected from over 1,450 people. Link to GazeCapture</li>
+                    <li>The core logic relies on the standardized Snellen chart, not a dataset for training vision results.&nbsp;<a href="https://www.google.com/search?q=http://gazecapture.csail.mit.edu/">Link to GazeCapture</a></li>
+                </div>
+
+                <div class="challenge-info">
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Duration: 36 Hours</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-users"></i>
+                        <span>Team Size: 1 Member</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-trophy"></i>
+                        <span>Prize Pool: ₹40,000</span>
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <button class="register-btn">Register Now</button>
+                    <button class="download-btn">Download Resources</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Popup Overlay -3 -->
+    <div class="popup-overlay" id="challengePopup-3">
+    <div class="popup-content">
+        <button class="popup-close" onclick="closePopup('challengePopup-3')">
+            <i class="fas fa-times"></i>
+        </button>
+
+        <div class="problem-statement-container">
+            <div class="problem-header">
+                <h2>AI & ML CHALLENGE - FULL DETAILS</h2>
+                <div class="difficulty-badge difficulty-medium">ADVANCED LEVEL</div>
+            </div>
+
+            <div class="problem-content">
+                <h3>The "Smart Study Hub"</h3>
+                <p><strong>Description:</strong> A dynamic study planner that goes beyond simple calendars to solve the problem of managing scattered notes and inefficient study habits. This tool uses AI to create personalized study schedules based on a user's subjects, exam dates, and confidence levels. It features an automated note summarizer that can process uploaded notes (PDFs, images) to generate summaries and flashcards.</p>
+
+                <div class="requirements">
+                    <h4>Key Requirements:</h4>
+                    <ul>
+                        <li>NLP model for abstractive or extractive text summarization.</li>
+                        <li>Optical Character Recognition (OCR) technology to extract text from images of notes.</li>
+                        <li>A scheduling algorithm that prioritizes topics based on user-inputted confidence levels and deadlines.</li>
+                        <li>A user-friendly interface to manage subjects, upload notes, and view the generated study plan and flashcards.</li>
+                    </ul>
+                </div>
+
+                <div class="deliverables">
+                    <h4>Outcomes:</h4>
+                    <ul>
+                        <li>An optimized, adaptive, and personalized study schedule for each user.</li>
+                        <li>Automated creation of concise summaries and flashcards, saving significant student time.</li>
+                        <li>Improved learning outcomes by focusing revision on weaker areas.</li>
+                    </ul>
+                </div>
+
+                <div class="evaluation-criteria">
+                    <h4>Conditions:</h4>
+                    <ul>
+                        <li>The quality of the summaries and text extraction is dependent on the clarity and structure of the source notes.</li>
+                        <li>Requires active and honest input from the user regarding their confidence levels for the schedule to be effective.</li>
+                    </ul>
+                </div>
+                <div class="evaluation-criteria">
+                    <h4>Potential Datasets:</h4>
+                    <li>For summarization: CNN/DailyMail Dataset or XSum (Extreme Summarization) are standard benchmarks. Link to CNN/DailyMail on Hugging Face&nbsp;<a href="https://www.google.com/search?q=https://huggingface.co/datasets/cnn_dailymail">Link to CNN/DailyMail on Hugging Face</a></li>
+                </div>
+
+                <div class="challenge-info">
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Duration: 36 Hours</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-users"></i>
+                        <span>Team Size: 1 Member</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-trophy"></i>
+                        <span>Prize Pool: ₹40,000</span>
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <button class="register-btn">Register Now</button>
+                    <button class="download-btn">Download Resources</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Popup Overlay -4 -->
+    <div class="popup-overlay" id="challengePopup-4">
+    <div class="popup-content">
+        <button class="popup-close" onclick="closePopup('challengePopup-4')">
+            <i class="fas fa-times"></i>
+        </button>
+
+        <div class="problem-statement-container">
+            <div class="problem-header">
+                <h2>AI & ML CHALLENGE - FULL DETAILS</h2>
+                <div class="difficulty-badge difficulty-medium">INTERMEDIATE LEVEL</div>
+            </div>
+
+            <div class="problem-content">
+                <h3>The "Campus Hive" (P2P Doubt Solver 2.0)</h3>
+                <p><strong>Description:</strong> A peer-to-peer doubt-solving platform supercharged with AI to address the difficulty of getting fast, verified answers. Its competitive edge comes from an AI that routes questions to the most qualified students based on their skill profiles. It also uses a GenAI model to provide an instant "first-draft" answer.</p>
+
+                <div class="requirements">
+                    <h4>Key Requirements:</h4>
+                    <ul>
+                        <li>A user profiling system to track subjects, skills, and past performance.</li>
+                        <li>An NLP-based question classification and routing model.</li>
+                        <li>Integration with a large language model (LLM) API for generating preliminary answers.</li>
+                        <li>A reputation system (leaderboard, badges) to incentivize quality answers.</li>
+                    </ul>
+                </div>
+
+                <div class="deliverables">
+                    <h4>Outcomes:</h4>
+                    <ul>
+                        <li>Significantly reduced waiting time for getting answers to academic questions.</li>
+                        <li>A curated community where knowledgeable students are recognized and rewarded.</li>
+                        <li>A reliable platform for collaborative learning.</li>
+                    </ul>
+                </div>
+
+                <div class="evaluation-criteria">
+                    <h4>Conditions:</h4>
+                    <ul>
+                        <li>Requires a critical mass of active users to ensure questions are answered.</li>
+                        <li>The GenAI-generated answers must be clearly labeled as unverified drafts.</li>
+                        <li>A moderation system is needed to handle incorrect or inappropriate content.</li>
+                    </ul>
+                </div>
+                <div class="evaluation-criteria">
+                    <h4>Potential Datasets:</h4>
+                    <li>Stack Exchange Data Dump: Can be used to train question routing models based on tags and content.&nbsp;<a href="https://www.google.com/search?q=https://archive.org/details/stackexchange">Link to Stack Exchange Data</a></li>
+                </div>
+
+                <div class="challenge-info">
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Duration: 36 Hours</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-users"></i>
+                        <span>Team Size: 1 Member</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-trophy"></i>
+                        <span>Prize Pool: ₹40,000</span>
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <button class="register-btn">Register Now</button>
+                    <button class="download-btn">Download Resources</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="../js/navbar.js"></script>
+
+<script>
+
+    function openPopup(popupId) {
+        const popup = document.getElementById(popupId);
+        if (popup) {
             popup.classList.add('active');
             document.body.style.overflow = 'hidden';
         }
+    }
 
-        function closePopup(challengeId) {
-            const popup = document.getElementById(challengeId + 'Popup');
+    function closePopup(popupId) {
+        const popup = document.getElementById(popupId);
+        if (popup) {
             popup.classList.remove('active');
             document.body.style.overflow = 'auto';
         }
-
-        // Close popup when clicking outside
-        document.querySelectorAll('.popup-overlay').forEach(popup => {
-            popup.addEventListener('click', function (e) {
-                if (e.target === this) {
-                    this.classList.remove('active');
-                    document.body.style.overflow = 'auto';
-                }
-            });
-        });
-
-        // Close popup with Escape key
-        document.addEventListener('keydown', function (e) {
-            if (e.key === 'Escape') {
-                document.querySelectorAll('.popup-overlay.active').forEach(popup => {
-                    popup.classList.remove('active');
-                    document.body.style.overflow = 'auto';
-                });
-            }
-        });
-
-        // Add scroll reveal animations
-        if (typeof ScrollReveal !== 'undefined') {
-            ScrollReveal({
-                reset: true,
-                distance: '100px',
-                duration: 2000,
-                delay: 0
-            });
-
-            ScrollReveal().reveal('.challenge-title', { delay: 0, origin: 'top' });
-            ScrollReveal().reveal('.challenge-card-container', { delay: 300, origin: 'bottom', interval: 200 });
+    }
+    
+    document.addEventListener('click', function(e) {
+        const activePopup = document.querySelector('.popup-overlay.active');
+        if (activePopup && e.target === activePopup) {
+            closePopup(activePopup.id);
         }
-    </script>
-</body>
+    });
 
+    // Close popup with Escape key
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            const activePopup = document.querySelector('.popup-overlay.active');
+            if (activePopup) {
+                closePopup(activePopup.id);
+            }
+        }
+    });
+
+    // Add scroll reveal animations
+    if (typeof ScrollReveal !== 'undefined') {
+        ScrollReveal({
+            reset: true,
+            distance: '100px',
+            duration: 2000,
+            delay: 0
+        });
+
+        ScrollReveal().reveal('.challenge-title', {delay: 0, origin: 'top'});
+        ScrollReveal().reveal('.challenge-card-container', {delay: 300, origin: 'bottom'});
+    }
+</script>
+</body>
 </html>
