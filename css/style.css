@@ -197,7 +197,7 @@ h2 {
     display: block;
     width: 16vw;
     height: 6px;
-    background: #e0e0e0c9;
+    /* background: #e0e0e0c9; */
     left: 1.2vw;
     top: 40%;
     position: absolute;
@@ -208,7 +208,7 @@ h2 {
     display: block;
     width: 16vw;
     height: 6px;
-    background: #e0e0e0c9;
+    /* background: #e0e0e0c9; */
     right:1.2vw;
     top: 40%;
     position: absolute;
