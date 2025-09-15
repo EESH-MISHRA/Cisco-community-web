@@ -570,7 +570,7 @@
     margin-top: 40px;
 }
 
-.register-btn, .download-btn {
+.register-btn, .submit-btn {
     padding: 15px 30px;
     border: none;
     border-radius: 25px;
@@ -594,16 +594,13 @@
     box-shadow: 0 8px 20px rgba(149, 105, 252, 0.3);
 }
 
-.download-btn {
-    background: transparent;
-    color: #9569FC;
-    border: 2px solid #9569FC;
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+.submit-btn {
+    background: linear-gradient(135deg, #9569FC, #171634);
+    color: #ffffff;
 }
 
-.download-btn:hover {
-    background: #9569FC;
-    color: #ffffff;
+.submit-btn:hover {
+    background: linear-gradient(135deg, #171634, #9569FC);
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(149, 105, 252, 0.3);
 }
