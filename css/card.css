@@ -266,7 +266,7 @@ transition: 0.5 ease;
 }
 
 #sc1{
-    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/ritik-mishra.jpg");
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/ritik_mishra.jpg");
        background-repeat: no-repeat;
        background-size: cover;
        background-position: center;
