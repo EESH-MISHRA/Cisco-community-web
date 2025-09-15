@@ -424,13 +424,18 @@
     margin-bottom: 40px;
 }
 
-.problem-header h2 {
-    font-family: "Koulen", serif;
-    font-size: 32px;
-    color: #9569FC;
-    margin-bottom: 15px;
-    letter-spacing: 2px;
-    font-weight: 400;
+.problem-statement-container .problem-header h2 {
+    font-family: "Koulen", serif !important;
+    font-size: 32px !important;
+    color: #9569FC !important;
+    margin-bottom: 15px !important;
+    letter-spacing: 2px !important;
+    font-weight: 400 !important;
+    text-decoration: none !important;
+    border: none !important;
+    border-bottom: none !important;
+    text-underline-offset: unset !important;
+    text-decoration-line: none !important;
 }
 
 .difficulty-badge {
