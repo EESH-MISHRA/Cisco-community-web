@@ -259,14 +259,14 @@ transition: 0.5 ease;
 }
 
 #faculCood{
-    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/faccod.jpg");
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/facul-coordi.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 #sc1{
-    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/ritikmishra.jpg");
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/images/ritik-mishra.jpg");
        background-repeat: no-repeat;
        background-size: cover;
        background-position: center;
